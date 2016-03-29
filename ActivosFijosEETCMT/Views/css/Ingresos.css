@@ -1,0 +1,372 @@
+
+/*-----------------------------Setenado------------------------------------*/
+*{    
+    font-family		:inherit;
+    font-size		:100%;
+    font-style		:inherit;
+    font-weight		:inherit;
+    margin			: 0pt;
+    padding			: 0pt;
+    vertical-align	: baseline;
+    list-style		:none;
+}
+/*-----------------------------body Contenedor----------------------------*/
+strong 
+{
+        font-weight:bold;
+        color:#000;
+        
+}
+body,html
+{
+	height: 100%;
+	background:#EEEEEE;
+	font: 90% "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+    overflow:hidden;
+}
+.contenedor
+{
+	min-height:100%;
+	height: auto!important;
+	height:100%;
+	width:100%;
+}
+.centro
+{
+    width: 100%;
+	position: absolute;
+	top: 101px;
+	bottom: 30px;
+	overflow: hidden;
+}
+
+/*------------------------------------------------------Options------------------------------------*/
+
+div.master
+{
+	height:35px;
+    line-height:35px;
+	width:100%;
+	border-bottom:1px solid #AAAAAA;
+    background: url("../img/Line4.png") repeat-x scroll 50% 50% #D7D8DC;
+    position:relative;
+    text-align:center;
+}
+div.master h1
+{
+  position :absolute;
+  left:0px;
+  padding:0px 5px;
+  height:35px;
+  background:url(../img/line7.png) repeat-x 50% 50%;
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.9) inset;
+	   -moz-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.9) inset;
+	        box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.9) inset;
+  -webkit-border-radius: 0px 6px 6px 0px;
+	   -moz-border-radius: 0px 6px 6px 0px;
+	        border-radius: 0px 6px 6px 0px;
+}
+div.master h1 em:first-child
+{
+	font-size:14px;
+}
+div.master h1 em
+{
+  color:#fff;
+  padding:0px 6px;
+  font-size:18px;
+  float:left;
+  height:35px;
+  line-height:35px;
+  margin:1px 1px;
+  text-shadow: none;
+  -webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;	
+}
+
+div.master span
+{	
+ width:4%; 
+ margin-left:5px;
+ color:#fff;
+ position:relative;
+ text-align:right;
+ padding: 3px 3px;
+ border: 1px solid #818080;
+ border-right: none;
+ background:url(../img/line7.png) repeat-x 50% 50%;
+ -webkit-border-radius: 6px 0px 0px 6px;
+	   -moz-border-radius: 6px 0px 0px 6px;
+	        border-radius: 6px 0px 0px 6px;
+text-shadow:none;
+ -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.9) inset;
+	   -moz-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.9) inset;
+	        box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.9) inset;
+}
+input[type="text"]
+{
+  margin-left:-5px;
+  padding: 3px 4px;
+  padding-left:30px;
+  width:9%;
+  background:#fff no-repeat 2px 0px;
+  border: 1px solid #BEBCBC;
+  border-left:none;
+  -webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	  -moz-box-sizing : content-box;
+	       box-sizing : content-box;
+	-webkit-border-radius: 0px 6px 6px 0px;
+	   -moz-border-radius: 0px 6px 6px 0px;
+	        border-radius: 0px 6px 6px 0px;
+	-webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	   -moz-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	        box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	-webkit-transition: all 0.2s linear;
+	   -moz-transition: all 0.2s linear;
+	     -o-transition: all 0.2s linear;
+	        transition: all 0.2s linear;
+	        
+}
+input[type="text"]:active, input[type="text"]:focus
+{
+	border: 1px solid rgba(91, 90, 90, 0.7);
+	border-left:none;
+	-webkit-box-shadow: 0px 1px 4px 1px #A8A8A8 inset;
+	   -moz-box-shadow: 0px 1px 4px 1px #A8A8A8 inset;
+	        box-shadow: 0px 1px 4px 1px #A8A8A8 inset;
+} 
+
+::-webkit-input-placeholder  { 
+	color: rgb(190, 188, 188);
+	color: #BEBCBC;
+	font-style: italic;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder{ 
+	color: rgb(190, 188, 188);
+	color: #BEBCBC;
+	font-style: italic;
+} 
+
+div.master input[type="button"]
+{
+  height:26px;
+  line-height:20px;
+  right:5px;
+  top:50%;
+  margin-top:-13px;
+  position:absolute;
+  padding:1px 10px;
+	cursor: pointer;	
+	background:#868686;
+	font-family: 'BebasNeueRegular','Arial Narrow',Arial,sans-serif;
+	color: #fff;
+	font-size: 16px;	
+	border: 1px solid #5A5655;	
+	margin-bottom: 10px;	
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;	
+	-webkit-transition: all 0.3s linear;
+	   -moz-transition: all 0.3s linear;
+	     -o-transition: all 0.3s linear;
+	        transition: all 0.3s linear;	
+}
+div.master input[type="button"]:hover
+{
+background: #59B4D4;
+}
+
+
+
+/*-------------------------------------CABEZA---------------------------*/
+div.datosMaestro
+{
+    margin:0px auto 0px auto;
+    overflow-y:scroll;
+    border-top:2px solid #AAAAAA;
+}
+div.datosMaestro table.thead
+{
+  border-collapse:collapse;
+  width:100%;
+}
+  div.datosMaestro table.thead tr
+{
+    border-collapse:collapse;
+    width:100%;
+    background:url(../img/line7.png) repeat-x 50% 50%;
+    color:#fff;
+} 
+  div.datosMaestro table.thead td
+{
+    border: 1px solid #C8C6C6;
+    text-align:center;
+    padding:4px 0px;
+}
+
+div.datosMaestro table.thead td:nth-child(1)
+{
+  border-left:none;
+  width:8%;
+  text-align:center;
+}
+div.datosMaestro table.thead td:nth-child(2)
+{
+	width:48%;
+}
+div.datosMaestro table.thead td:nth-child(3),
+div.datosMaestro table.thead td:nth-child(4), 
+div.datosMaestro table.thead td:nth-child(5), 
+div.datosMaestro table.thead td:nth-child(6)
+
+{
+    width:9%;
+    text-align:center;
+    padding-left:0px;
+} 
+
+
+/*----------------------------------------------DETALLE---------------------------------------------*/
+div.datosDetalle
+{
+    width:100%;
+    height:100%;
+    margin:0px auto;
+    overflow-y:scroll;
+}
+div.datosDetalle table.tbody
+{
+   border-collapse:collapse;
+   width:100%;
+}
+div.datosDetalle table.tbody tr
+{
+    border-collapse:collapse;
+    width:100%;
+    border:1px solid #C8C6C6;
+    border-left:none;
+}
+
+div.datosDetalle table.tbody tr:nth-child(1)
+{
+  border-top:none;    
+}
+div.datosDetalle table.tbody tr td
+{
+  padding:3px 0px;
+  padding-left:3px;
+  text-align:center;
+}
+div.datosDetalle table.tbody tr td:nth-child(1)
+{
+  border-right:1px solid  #C8C6C6;
+  width:8%;
+}
+div.datosDetalle table.tbody tr td:nth-child(2)
+{
+	width:48%;
+	text-align:left;
+}
+div.datosDetalle table.tbody tr td:nth-child(4),
+div.datosDetalle table.tbody tr td:nth-child(5), 
+div.datosDetalle table.tbody tr td:nth-child(6),
+div.datosDetalle table.tbody tr td:nth-child(3)
+{
+    width:9%;
+    text-align:center;
+    padding-left:0px;
+}
+
+
+div.datosDetalle table.tbody tr td input[type="button"]
+{
+	background: none repeat scroll 0 0 #868686;
+    border: 1px solid #5A5655;
+    border-radius: 6px 6px 6px 6px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin: 0;
+    padding: 0 5px;
+    text-align: center;
+}
+div.datosDetalle table.tbody tr td input[type="button"]:hover
+{
+    background: #59B4D4;
+}
+/*---------------------------------------------PIE---------------------------------*/
+div.footer
+{
+	width: 100%;
+	height: 30px;
+    line-height:30px;
+	position: absolute;
+	bottom: 0px;
+	border-top:1px solid #AAAAAA;
+	background:url(../img/line7.png) repeat-x 50% 50%;
+}
+div.footer em
+{
+    color:#74FCCE; 
+    font-size:14px;
+    font-weight:600;
+}
+div.footer table.tfooter
+{
+   border-collapse:collapse;
+   width:99%;
+}
+  div.footer table.tfooter tr
+{
+    border-collapse:collapse;
+    width:100%;
+    background:url(../img/line7.png) repeat-x 50% 50%;
+    color:#fff;
+} 
+  div.footer table.tfooter td
+{
+    text-align:center;
+    padding:0px 0px;
+}
+
+div.footer table.tfooter td:nth-child(1)
+{
+  border-left:none;
+  width:8%;
+}
+div.footer table.tfooter td:nth-child(2)
+{
+	width:48%;
+}
+
+div.footer table.tfooter td:nth-child(4), 
+div.footer table.tfooter td:nth-child(5), 
+div.footer table.tfooter td:nth-child(6), 
+
+div.footer table.tfooter td:nth-child(3)
+{
+    width:9%;
+    text-align:center;
+    padding-left:0px;
+}
+
+/*--------*/
+
+.gradeC
+{
+   background:#DDFFDD; 
+   border:1px solid #00FF00; 
+   height:20px;
+   padding-top:7px;
+}
+
+.Aviso
+{
+font-size: 13px;
+color: #515284;
+
+
+}

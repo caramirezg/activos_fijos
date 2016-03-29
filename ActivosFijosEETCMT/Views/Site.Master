@@ -1,0 +1,103 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Views/Site.master.cs"
+    Inherits="ActivosFijosEETC.SiteMaster" %>
+
+<%@ Register Assembly="BusinessRefinery.Barcode.Web" Namespace="BusinessRefinery.Barcode.Web"
+    TagPrefix="cc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <link href="/Views/css/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server" style="height: 100%">
+    <div class="clear hideSkiplink">
+        <table>
+            <tr>
+                <td>
+                    <asp:Image ID="Image1" runat="server" Height="42px" ImageUrl="~/Views/img/logoBlue.JPG"
+                        Width="64px" />
+                </td>
+                <td style="vertical-align: middle;">
+                    <h4 style="color: White; font-weight: bold; vertical-align: middle; padding-bottom: 15px;">
+                        Sistema de Control de Activos Fijos</h4>
+                </td>
+                <td>
+                    <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false"
+                        IncludeStyleBlock="false" Orientation="Horizontal">
+                        <Items>
+                            <asp:MenuItem NavigateUrl="~/Default.aspx" Text="Home" />
+                            <asp:MenuItem NavigateUrl="~/About.aspx" Text="Catálogo" />
+                            <asp:MenuItem NavigateUrl="~/About.aspx" Text="Activos" />
+                            <asp:MenuItem Text="Proveedores" Value="Proveedores">
+                                <asp:MenuItem NavigateUrl="~/Views/RegistrarProveedor.aspx" Text="Registrar Proveedor"
+                                    Value="Registrar Proveedor"></asp:MenuItem>
+                                <asp:MenuItem Text="Editar Proveedor" Value="Editar Proveedor" NavigateUrl="~/Views/EditaProveedor.aspx">
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="Buscar Proveedor" Value="Buscar Proveedor" NavigateUrl="~/Views/BuscarProveedor.aspx">
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="Ruta Proveedor" Value="Ruta Proveedor" NavigateUrl="~/Views/RutaProveedor.aspx">
+                                </asp:MenuItem>
+                            </asp:MenuItem>
+                            <asp:MenuItem NavigateUrl="~/About.aspx" Text="Configuración">
+                                <asp:MenuItem NavigateUrl="~/Views/Perfil.aspx" Text="Perfil" Value="Perfil"></asp:MenuItem>
+                            </asp:MenuItem>
+                        </Items>
+                    </asp:Menu>
+                </td>
+                <td align="right">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div style="width: 15%; float: left; background-color: #dcdcdc; padding-bottom: 15px;
+        height: 100%;">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+                <td>
+                    </br>
+                    <asp:Label ID="lblUsuario" runat="server" Text="Carlos Ramirez" Style="color: Black;
+                        font-weight: bold; padding-left: 55%; vertical-align: middle; padding-bottom: 15px;"></asp:Label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:HyperLink ID="HyperLink1" runat="server" Style="padding-left: 55%;" Font-Underline="True"
+                        ForeColor="#333333" NavigateUrl="~/Views/Perfil.aspx">Editar Usuario</asp:HyperLink>
+                </td>
+            </tr>
+            <tr>
+                <td align="left">
+                    </br>
+                    <asp:Menu ID="Menu2" CssClass="menuLateral" runat="server" Font-Bold="True" ForeColor="#333333">
+                        <Items>
+                            <asp:MenuItem Text="Generador de QR" Value="Generador de QR" ImageUrl="~/Views/img/qrcode.png"
+                                NavigateUrl="~/Views/GeneradorQR.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Generador de CB" Value="Generador de CB" ImageUrl="~/Views/img/barcode.gif"
+                                NavigateUrl="~/Views/GeneradorCodigoBarras.aspx"></asp:MenuItem>
+                            <asp:MenuItem Text="Depreciaciones" Value="Depreciaciones" ImageUrl="~/Views/img/building_edit.png">
+                            </asp:MenuItem>
+                            <asp:MenuItem Text="Catálogo" Value="Catálogo" ImageUrl="~/Views/img/cup_key.png">
+                            </asp:MenuItem>
+                        </Items>
+                    </asp:Menu>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="page">
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+    </div>
+    <div class="footer">
+        Sistema de Control de Activos Fijos<br />
+        Empresa Estatal de Transporte por Cable &quot;Mi Teleférico&quot;<br />
+        Copyright ® 2014 Carlos Ramirez Garcia</div>
+    </form>
+</body>
+</html>

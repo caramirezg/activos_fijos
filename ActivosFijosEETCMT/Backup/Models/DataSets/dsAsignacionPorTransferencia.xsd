@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAsignacionPorTransferencia" targetNamespace="http://tempuri.org/dsAsignacionPorTransferencia.xsd" xmlns:mstns="http://tempuri.org/dsAsignacionPorTransferencia.xsd" xmlns="http://tempuri.org/dsAsignacionPorTransferencia.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAsignacionPorTransferencia" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsAsignacionPorTransferencia" msprop:Generator_UserDSName="dsAsignacionPorTransferencia">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="asignacion_por_transferencia_maestro" msprop:Generator_TableClassName="asignacion_por_transferencia_maestroDataTable" msprop:Generator_TableVarName="tableasignacion_por_transferencia_maestro" msprop:Generator_TablePropName="asignacion_por_transferencia_maestro" msprop:Generator_RowDeletingName="asignacion_por_transferencia_maestroRowDeleting" msprop:Generator_RowChangingName="asignacion_por_transferencia_maestroRowChanging" msprop:Generator_RowEvHandlerName="asignacion_por_transferencia_maestroRowChangeEventHandler" msprop:Generator_RowDeletedName="asignacion_por_transferencia_maestroRowDeleted" msprop:Generator_UserTableName="asignacion_por_transferencia_maestro" msprop:Generator_RowChangedName="asignacion_por_transferencia_maestroRowChanged" msprop:Generator_RowEvArgName="asignacion_por_transferencia_maestroRowChangeEvent" msprop:Generator_RowClassName="asignacion_por_transferencia_maestroRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:string" minOccurs="0" />
+              <xs:element name="f_asignacion" msprop:Generator_ColumnVarNameInTable="columnf_asignacion" msprop:Generator_ColumnPropNameInRow="f_asignacion" msprop:Generator_ColumnPropNameInTable="f_asignacionColumn" msprop:Generator_UserColumnName="f_asignacion" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="correlativo" msprop:Generator_ColumnVarNameInTable="columncorrelativo" msprop:Generator_ColumnPropNameInRow="correlativo" msprop:Generator_ColumnPropNameInTable="correlativoColumn" msprop:Generator_UserColumnName="correlativo" type="xs:string" minOccurs="0" />
+              <xs:element name="ubicacion" msprop:Generator_ColumnVarNameInTable="columnubicacion" msprop:Generator_ColumnPropNameInRow="ubicacion" msprop:Generator_ColumnPropNameInTable="ubicacionColumn" msprop:Generator_UserColumnName="ubicacion" type="xs:string" minOccurs="0" />
+              <xs:element name="fk_persona_origen" msdata:Caption="fk_persona" msprop:Generator_ColumnVarNameInTable="columnfk_persona_origen" msprop:Generator_ColumnPropNameInRow="fk_persona_origen" msprop:Generator_ColumnPropNameInTable="fk_persona_origenColumn" msprop:Generator_UserColumnName="fk_persona_origen" type="xs:string" minOccurs="0" />
+              <xs:element name="nombres_origen" msdata:Caption="nombres" msprop:Generator_ColumnVarNameInTable="columnnombres_origen" msprop:Generator_ColumnPropNameInRow="nombres_origen" msprop:Generator_ColumnPropNameInTable="nombres_origenColumn" msprop:Generator_UserColumnName="nombres_origen" type="xs:string" minOccurs="0" />
+              <xs:element name="apellidos_origen" msdata:Caption="apellidos" msprop:Generator_ColumnVarNameInTable="columnapellidos_origen" msprop:Generator_ColumnPropNameInRow="apellidos_origen" msprop:Generator_ColumnPropNameInTable="apellidos_origenColumn" msprop:Generator_UserColumnName="apellidos_origen" type="xs:string" minOccurs="0" />
+              <xs:element name="gerencia_origen" msdata:Caption="gerencia" msprop:Generator_ColumnVarNameInTable="columngerencia_origen" msprop:Generator_ColumnPropNameInRow="gerencia_origen" msprop:Generator_ColumnPropNameInTable="gerencia_origenColumn" msprop:Generator_UserColumnName="gerencia_origen" type="xs:string" minOccurs="0" />
+              <xs:element name="area_origen" msdata:Caption="area" msprop:Generator_ColumnVarNameInTable="columnarea_origen" msprop:Generator_ColumnPropNameInRow="area_origen" msprop:Generator_ColumnPropNameInTable="area_origenColumn" msprop:Generator_UserColumnName="area_origen" type="xs:string" minOccurs="0" />
+              <xs:element name="estacion" msprop:Generator_ColumnVarNameInTable="columnestacion" msprop:Generator_ColumnPropNameInRow="estacion" msprop:Generator_ColumnPropNameInTable="estacionColumn" msprop:Generator_UserColumnName="estacion" type="xs:string" minOccurs="0" />
+              <xs:element name="linea" msprop:Generator_ColumnVarNameInTable="columnlinea" msprop:Generator_ColumnPropNameInRow="linea" msprop:Generator_ColumnPropNameInTable="lineaColumn" msprop:Generator_UserColumnName="linea" type="xs:string" minOccurs="0" />
+              <xs:element name="official" msprop:Generator_ColumnVarNameInTable="columnofficial" msprop:Generator_ColumnPropNameInRow="official" msprop:Generator_ColumnPropNameInTable="officialColumn" msprop:Generator_UserColumnName="official" type="xs:string" minOccurs="0" />
+              <xs:element name="iniciales" msprop:Generator_ColumnVarNameInTable="columniniciales" msprop:Generator_ColumnPropNameInRow="iniciales" msprop:Generator_ColumnPropNameInTable="inicialesColumn" msprop:Generator_UserColumnName="iniciales" type="xs:string" minOccurs="0" />
+              <xs:element name="fk_persona_destino" msprop:Generator_ColumnVarNameInTable="columnfk_persona_destino" msprop:Generator_ColumnPropNameInRow="fk_persona_destino" msprop:Generator_ColumnPropNameInTable="fk_persona_destinoColumn" msprop:Generator_UserColumnName="fk_persona_destino" type="xs:string" minOccurs="0" />
+              <xs:element name="nombres_destino" msprop:Generator_ColumnVarNameInTable="columnnombres_destino" msprop:Generator_ColumnPropNameInRow="nombres_destino" msprop:Generator_ColumnPropNameInTable="nombres_destinoColumn" msprop:Generator_UserColumnName="nombres_destino" type="xs:string" minOccurs="0" />
+              <xs:element name="apellidos_destino" msprop:Generator_ColumnVarNameInTable="columnapellidos_destino" msprop:Generator_ColumnPropNameInRow="apellidos_destino" msprop:Generator_ColumnPropNameInTable="apellidos_destinoColumn" msprop:Generator_UserColumnName="apellidos_destino" type="xs:string" minOccurs="0" />
+              <xs:element name="gerencia_destino" msprop:Generator_ColumnVarNameInTable="columngerencia_destino" msprop:Generator_ColumnPropNameInRow="gerencia_destino" msprop:Generator_ColumnPropNameInTable="gerencia_destinoColumn" msprop:Generator_UserColumnName="gerencia_destino" type="xs:string" minOccurs="0" />
+              <xs:element name="area_destino" msprop:Generator_ColumnVarNameInTable="columnarea_destino" msprop:Generator_ColumnPropNameInRow="area_destino" msprop:Generator_ColumnPropNameInTable="area_destinoColumn" msprop:Generator_UserColumnName="area_destino" type="xs:string" minOccurs="0" />
+              <xs:element name="motivo" msprop:Generator_ColumnVarNameInTable="columnmotivo" msprop:Generator_ColumnPropNameInRow="motivo" msprop:Generator_ColumnPropNameInTable="motivoColumn" msprop:Generator_UserColumnName="motivo" type="xs:string" minOccurs="0" />
+              <xs:element name="tipo_transferencia" msprop:Generator_ColumnVarNameInTable="columntipo_transferencia" msprop:Generator_ColumnPropNameInRow="tipo_transferencia" msprop:Generator_ColumnPropNameInTable="tipo_transferenciaColumn" msprop:Generator_UserColumnName="tipo_transferencia" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="asignacion_por_transferencia_detalle" msprop:Generator_TableClassName="asignacion_por_transferencia_detalleDataTable" msprop:Generator_TableVarName="tableasignacion_por_transferencia_detalle" msprop:Generator_TablePropName="asignacion_por_transferencia_detalle" msprop:Generator_RowDeletingName="asignacion_por_transferencia_detalleRowDeleting" msprop:Generator_RowChangingName="asignacion_por_transferencia_detalleRowChanging" msprop:Generator_RowEvHandlerName="asignacion_por_transferencia_detalleRowChangeEventHandler" msprop:Generator_RowDeletedName="asignacion_por_transferencia_detalleRowDeleted" msprop:Generator_UserTableName="asignacion_por_transferencia_detalle" msprop:Generator_RowChangedName="asignacion_por_transferencia_detalleRowChanged" msprop:Generator_RowEvArgName="asignacion_por_transferencia_detalleRowChangeEvent" msprop:Generator_RowClassName="asignacion_por_transferencia_detalleRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:string" minOccurs="0" />
+              <xs:element name="fk_asignacion_por_transferencia_maestro" msdata:Caption="fk_asignacion_maestro" msprop:Generator_ColumnVarNameInTable="columnfk_asignacion_por_transferencia_maestro" msprop:Generator_ColumnPropNameInRow="fk_asignacion_por_transferencia_maestro" msprop:Generator_ColumnPropNameInTable="fk_asignacion_por_transferencia_maestroColumn" msprop:Generator_UserColumnName="fk_asignacion_por_transferencia_maestro" type="xs:string" minOccurs="0" />
+              <xs:element name="codigo" msprop:Generator_ColumnVarNameInTable="columncodigo" msprop:Generator_ColumnPropNameInRow="codigo" msprop:Generator_ColumnPropNameInTable="codigoColumn" msprop:Generator_UserColumnName="codigo" type="xs:string" minOccurs="0" />
+              <xs:element name="descripcion" msprop:Generator_ColumnVarNameInTable="columndescripcion" msprop:Generator_ColumnPropNameInRow="descripcion" msprop:Generator_ColumnPropNameInTable="descripcionColumn" msprop:Generator_UserColumnName="descripcion" type="xs:string" minOccurs="0" />
+              <xs:element name="observaciones" msprop:Generator_ColumnVarNameInTable="columnobservaciones" msprop:Generator_ColumnPropNameInRow="observaciones" msprop:Generator_ColumnPropNameInTable="observacionesColumn" msprop:Generator_UserColumnName="observaciones" type="xs:string" minOccurs="0" />
+              <xs:element name="estado" msprop:Generator_ColumnVarNameInTable="columnestado" msprop:Generator_ColumnPropNameInRow="estado" msprop:Generator_ColumnPropNameInTable="estadoColumn" msprop:Generator_UserColumnName="estado" type="xs:string" minOccurs="0" />
+              <xs:element name="serie" msprop:Generator_ColumnVarNameInTable="columnserie" msprop:Generator_ColumnPropNameInRow="serie" msprop:Generator_ColumnPropNameInTable="serieColumn" msprop:Generator_UserColumnName="serie" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="asignaciones_maestro_asignaciones_detalle" msdata:parent="asignacion_por_transferencia_maestro" msdata:child="asignacion_por_transferencia_detalle" msdata:parentkey="id" msdata:childkey="fk_asignacion_por_transferencia_maestro" msprop:Generator_UserChildTable="asignacion_por_transferencia_detalle" msprop:Generator_ChildPropName="Getasignacion_por_transferencia_detalleRows" msprop:Generator_UserRelationName="asignaciones_maestro_asignaciones_detalle" msprop:Generator_ParentPropName="asignacion_por_transferencia_maestroRow" msprop:Generator_RelationVarName="relationasignaciones_maestro_asignaciones_detalle" msprop:Generator_UserParentTable="asignacion_por_transferencia_maestro" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

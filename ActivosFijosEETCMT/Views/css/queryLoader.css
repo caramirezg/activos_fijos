@@ -1,0 +1,48 @@
+.QOverlay {
+	background-color: #000000;
+	z-index: 999;
+}
+.QOverlay div.div
+{
+	top:50%;
+	width:98%;
+	height: 10px;
+	border: 1px solid #fff;
+	z-index: 999;
+	position:absolute;
+	-border-radius: 20px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	margin: -1px 1% 0 1%;
+}
+.QOverlay span
+{
+	font-size:40px;
+    font-weight:bold;
+	color:#333333;
+	position:absolute;
+	height:50px;
+	width:100px;
+	top: 50%;
+	left: 50%;
+	margin-top: -50px;
+	margin-left: -50px;
+}
+
+.QLoader {
+	background-color: #FFA800;
+	height: 10px;
+	z-index: 9999;
+	width:98%;
+	margin: 0 1% 0 1%;
+	-border-radius: 20px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+}
+
+.QLoader2 
+{
+	background-color: #CCCCCC;
+	height: 1px;
+	z-index: 9999;
+}

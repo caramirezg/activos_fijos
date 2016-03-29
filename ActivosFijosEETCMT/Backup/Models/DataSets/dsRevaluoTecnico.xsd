@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsRevaluoTecnico" targetNamespace="http://tempuri.org/dsRevaluoTecnico.xsd" xmlns:mstns="http://tempuri.org/dsRevaluoTecnico.xsd" xmlns="http://tempuri.org/dsRevaluoTecnico.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsRevaluoTecnico" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsRevaluoTecnico" msprop:Generator_UserDSName="dsRevaluoTecnico">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="revaluo_maestro" msprop:Generator_TableClassName="revaluo_maestroDataTable" msprop:Generator_TableVarName="tablerevaluo_maestro" msprop:Generator_TablePropName="revaluo_maestro" msprop:Generator_RowDeletingName="revaluo_maestroRowDeleting" msprop:Generator_RowChangingName="revaluo_maestroRowChanging" msprop:Generator_RowEvHandlerName="revaluo_maestroRowChangeEventHandler" msprop:Generator_RowDeletedName="revaluo_maestroRowDeleted" msprop:Generator_UserTableName="revaluo_maestro" msprop:Generator_RowChangedName="revaluo_maestroRowChanged" msprop:Generator_RowEvArgName="revaluo_maestroRowChangeEvent" msprop:Generator_RowClassName="revaluo_maestroRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:string" minOccurs="0" />
+              <xs:element name="f_revaluo" msprop:Generator_ColumnVarNameInTable="columnf_revaluo" msprop:Generator_ColumnPropNameInRow="f_revaluo" msprop:Generator_ColumnPropNameInTable="f_revaluoColumn" msprop:Generator_UserColumnName="f_revaluo" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="correlativo" msprop:Generator_ColumnVarNameInTable="columncorrelativo" msprop:Generator_ColumnPropNameInRow="correlativo" msprop:Generator_ColumnPropNameInTable="correlativoColumn" msprop:Generator_UserColumnName="correlativo" type="xs:string" minOccurs="0" />
+              <xs:element name="motivo_revaluo" msprop:Generator_ColumnVarNameInTable="columnmotivo_revaluo" msprop:Generator_ColumnPropNameInRow="motivo_revaluo" msprop:Generator_ColumnPropNameInTable="motivo_revaluoColumn" msprop:Generator_UserColumnName="motivo_revaluo" type="xs:string" minOccurs="0" />
+              <xs:element name="disposicion_respaldo" msprop:Generator_ColumnVarNameInTable="columndisposicion_respaldo" msprop:Generator_ColumnPropNameInRow="disposicion_respaldo" msprop:Generator_ColumnPropNameInTable="disposicion_respaldoColumn" msprop:Generator_UserColumnName="disposicion_respaldo" type="xs:string" minOccurs="0" />
+              <xs:element name="iniciales" msprop:Generator_ColumnVarNameInTable="columniniciales" msprop:Generator_ColumnPropNameInRow="iniciales" msprop:Generator_ColumnPropNameInTable="inicialesColumn" msprop:Generator_UserColumnName="iniciales" type="xs:string" minOccurs="0" />
+              <xs:element name="official" msprop:Generator_ColumnVarNameInTable="columnofficial" msprop:Generator_ColumnPropNameInRow="official" msprop:Generator_ColumnPropNameInTable="officialColumn" msprop:Generator_UserColumnName="official" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="revaluo_detalle" msprop:Generator_TableClassName="revaluo_detalleDataTable" msprop:Generator_TableVarName="tablerevaluo_detalle" msprop:Generator_TablePropName="revaluo_detalle" msprop:Generator_RowDeletingName="revaluo_detalleRowDeleting" msprop:Generator_RowChangingName="revaluo_detalleRowChanging" msprop:Generator_RowEvHandlerName="revaluo_detalleRowChangeEventHandler" msprop:Generator_RowDeletedName="revaluo_detalleRowDeleted" msprop:Generator_UserTableName="revaluo_detalle" msprop:Generator_RowChangedName="revaluo_detalleRowChanged" msprop:Generator_RowEvArgName="revaluo_detalleRowChangeEvent" msprop:Generator_RowClassName="revaluo_detalleRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:string" minOccurs="0" />
+              <xs:element name="fk_revaluo_maestro" msprop:Generator_ColumnVarNameInTable="columnfk_revaluo_maestro" msprop:Generator_ColumnPropNameInRow="fk_revaluo_maestro" msprop:Generator_ColumnPropNameInTable="fk_revaluo_maestroColumn" msprop:Generator_UserColumnName="fk_revaluo_maestro" type="xs:string" minOccurs="0" />
+              <xs:element name="codigo" msprop:Generator_ColumnVarNameInTable="columncodigo" msprop:Generator_ColumnPropNameInRow="codigo" msprop:Generator_ColumnPropNameInTable="codigoColumn" msprop:Generator_UserColumnName="codigo" type="xs:string" minOccurs="0" />
+              <xs:element name="descripcion" msprop:Generator_ColumnVarNameInTable="columndescripcion" msprop:Generator_ColumnPropNameInRow="descripcion" msprop:Generator_ColumnPropNameInTable="descripcionColumn" msprop:Generator_UserColumnName="descripcion" type="xs:string" minOccurs="0" />
+              <xs:element name="serie" msprop:Generator_ColumnVarNameInTable="columnserie" msprop:Generator_ColumnPropNameInRow="serie" msprop:Generator_ColumnPropNameInTable="serieColumn" msprop:Generator_UserColumnName="serie" type="xs:string" minOccurs="0" />
+              <xs:element name="nuevo_costo" msprop:Generator_ColumnVarNameInTable="columnnuevo_costo" msprop:Generator_ColumnPropNameInRow="nuevo_costo" msprop:Generator_ColumnPropNameInTable="nuevo_costoColumn" msprop:Generator_UserColumnName="nuevo_costo" type="xs:string" minOccurs="0" />
+              <xs:element name="nueva_vida_util" msprop:Generator_ColumnVarNameInTable="columnnueva_vida_util" msprop:Generator_ColumnPropNameInRow="nueva_vida_util" msprop:Generator_ColumnPropNameInTable="nueva_vida_utilColumn" msprop:Generator_UserColumnName="nueva_vida_util" type="xs:string" minOccurs="0" />
+              <xs:element name="observaciones" msprop:Generator_ColumnVarNameInTable="columnobservaciones" msprop:Generator_ColumnPropNameInRow="observaciones" msprop:Generator_ColumnPropNameInTable="observacionesColumn" msprop:Generator_UserColumnName="observaciones" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="revaluo_maestroKey1">
+      <xs:selector xpath=".//mstns:revaluo_maestro" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+    <xs:unique name="revaluo_detalleKey1">
+      <xs:selector xpath=".//mstns:revaluo_detalle" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="revaluo_maestro_revaluo_detalle" msdata:parent="revaluo_maestro" msdata:child="revaluo_detalle" msdata:parentkey="id" msdata:childkey="fk_revaluo_maestro" msprop:Generator_UserChildTable="revaluo_detalle" msprop:Generator_ChildPropName="Getrevaluo_detalleRows" msprop:Generator_UserRelationName="revaluo_maestro_revaluo_detalle" msprop:Generator_ParentPropName="revaluo_maestroRow" msprop:Generator_RelationVarName="relationrevaluo_maestro_revaluo_detalle" msprop:Generator_UserParentTable="revaluo_maestro" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

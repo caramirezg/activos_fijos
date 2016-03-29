@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsResumenAperturaGestion" targetNamespace="http://tempuri.org/dsResumenAperturaGestion.xsd" xmlns:mstns="http://tempuri.org/dsResumenAperturaGestion.xsd" xmlns="http://tempuri.org/dsResumenAperturaGestion.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsResumenAperturaGestion" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsResumenAperturaGestion" msprop:Generator_UserDSName="dsResumenAperturaGestion">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="apertura_gestion" msprop:Generator_TableClassName="apertura_gestionDataTable" msprop:Generator_TableVarName="tableapertura_gestion" msprop:Generator_RowChangedName="apertura_gestionRowChanged" msprop:Generator_TablePropName="apertura_gestion" msprop:Generator_RowDeletingName="apertura_gestionRowDeleting" msprop:Generator_RowChangingName="apertura_gestionRowChanging" msprop:Generator_RowEvHandlerName="apertura_gestionRowChangeEventHandler" msprop:Generator_RowDeletedName="apertura_gestionRowDeleted" msprop:Generator_RowClassName="apertura_gestionRow" msprop:Generator_UserTableName="apertura_gestion" msprop:Generator_RowEvArgName="apertura_gestionRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="grupo_contable" msprop:Generator_ColumnVarNameInTable="columngrupo_contable" msprop:Generator_ColumnPropNameInRow="grupo_contable" msprop:Generator_ColumnPropNameInTable="grupo_contableColumn" msprop:Generator_UserColumnName="grupo_contable" type="xs:string" minOccurs="0" />
+              <xs:element name="cantidad" msprop:Generator_ColumnVarNameInTable="columncantidad" msprop:Generator_ColumnPropNameInRow="cantidad" msprop:Generator_ColumnPropNameInTable="cantidadColumn" msprop:Generator_UserColumnName="cantidad" type="xs:int" minOccurs="0" />
+              <xs:element name="vida_util" msprop:Generator_ColumnVarNameInTable="columnvida_util" msprop:Generator_ColumnPropNameInRow="vida_util" msprop:Generator_ColumnPropNameInTable="vida_utilColumn" msprop:Generator_UserColumnName="vida_util" type="xs:int" minOccurs="0" />
+              <xs:element name="costo_historico" msprop:Generator_ColumnVarNameInTable="columncosto_historico" msprop:Generator_ColumnPropNameInRow="costo_historico" msprop:Generator_ColumnPropNameInTable="costo_historicoColumn" msprop:Generator_UserColumnName="costo_historico" type="xs:decimal" minOccurs="0" />
+              <xs:element name="costo_actualizado_inicial" msprop:Generator_ColumnVarNameInTable="columncosto_actualizado_inicial" msprop:Generator_ColumnPropNameInRow="costo_actualizado_inicial" msprop:Generator_ColumnPropNameInTable="costo_actualizado_inicialColumn" msprop:Generator_UserColumnName="costo_actualizado_inicial" type="xs:decimal" minOccurs="0" />
+              <xs:element name="depreciacion_acumulada_total" msprop:Generator_ColumnVarNameInTable="columndepreciacion_acumulada_total" msprop:Generator_ColumnPropNameInRow="depreciacion_acumulada_total" msprop:Generator_ColumnPropNameInTable="depreciacion_acumulada_totalColumn" msprop:Generator_UserColumnName="depreciacion_acumulada_total" type="xs:decimal" minOccurs="0" />
+              <xs:element name="valor_neto_inicial" msprop:Generator_ColumnVarNameInTable="columnvalor_neto_inicial" msprop:Generator_ColumnPropNameInRow="valor_neto_inicial" msprop:Generator_ColumnPropNameInTable="valor_neto_inicialColumn" msprop:Generator_UserColumnName="valor_neto_inicial" type="xs:decimal" minOccurs="0" />
+              <xs:element name="actualizacion_gestion" msprop:Generator_ColumnVarNameInTable="columnactualizacion_gestion" msprop:Generator_ColumnPropNameInRow="actualizacion_gestion" msprop:Generator_ColumnPropNameInTable="actualizacion_gestionColumn" msprop:Generator_UserColumnName="actualizacion_gestion" type="xs:decimal" minOccurs="0" />
+              <xs:element name="costo_total_actualizado" msprop:Generator_ColumnVarNameInTable="columncosto_total_actualizado" msprop:Generator_ColumnPropNameInRow="costo_total_actualizado" msprop:Generator_ColumnPropNameInTable="costo_total_actualizadoColumn" msprop:Generator_UserColumnName="costo_total_actualizado" type="xs:decimal" minOccurs="0" />
+              <xs:element name="depreciacion_gestion" msprop:Generator_ColumnVarNameInTable="columndepreciacion_gestion" msprop:Generator_ColumnPropNameInRow="depreciacion_gestion" msprop:Generator_ColumnPropNameInTable="depreciacion_gestionColumn" msprop:Generator_UserColumnName="depreciacion_gestion" type="xs:decimal" minOccurs="0" />
+              <xs:element name="actualizacion_depreciacion_acumulada" msprop:Generator_ColumnVarNameInTable="columnactualizacion_depreciacion_acumulada" msprop:Generator_ColumnPropNameInRow="actualizacion_depreciacion_acumulada" msprop:Generator_ColumnPropNameInTable="actualizacion_depreciacion_acumuladaColumn" msprop:Generator_UserColumnName="actualizacion_depreciacion_acumulada" type="xs:decimal" minOccurs="0" />
+              <xs:element name="depreciacion_acumulada" msprop:Generator_ColumnVarNameInTable="columndepreciacion_acumulada" msprop:Generator_ColumnPropNameInRow="depreciacion_acumulada" msprop:Generator_ColumnPropNameInTable="depreciacion_acumuladaColumn" msprop:Generator_UserColumnName="depreciacion_acumulada" type="xs:decimal" minOccurs="0" />
+              <xs:element name="valor_neto" msprop:Generator_ColumnVarNameInTable="columnvalor_neto" msprop:Generator_ColumnPropNameInRow="valor_neto" msprop:Generator_ColumnPropNameInTable="valor_netoColumn" msprop:Generator_UserColumnName="valor_neto" type="xs:decimal" minOccurs="0" />
+              <xs:element name="iniciales" msprop:Generator_ColumnVarNameInTable="columniniciales" msprop:Generator_ColumnPropNameInRow="iniciales" msprop:Generator_ColumnPropNameInTable="inicialesColumn" msprop:Generator_UserColumnName="iniciales" type="xs:string" minOccurs="0" />
+              <xs:element name="tasa_ufv" msprop:Generator_ColumnVarNameInTable="columntasa_ufv" msprop:Generator_ColumnPropNameInRow="tasa_ufv" msprop:Generator_ColumnPropNameInTable="tasa_ufvColumn" msprop:Generator_UserColumnName="tasa_ufv" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

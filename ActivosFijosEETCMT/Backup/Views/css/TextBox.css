@@ -1,0 +1,39 @@
+﻿body {
+}
+
+.textBoxStyle1
+{
+    margin-left :-5px;
+    padding: 5px 4px;
+    padding-left:20px;
+    background:#fff no-repeat 2px 2px;
+    border: 1px solid #BEBCBC;
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing : content-box;
+    box-sizing : content-box;
+    width:300px;
+	
+}
+
+.textBoxStyle1:focus
+{
+    border: 3px solid rgba(0, 41, 148, 0.6);
+
+ 
+}
+
+.comboBoxStyle1
+{
+    margin-left :-5px;
+    padding: 5px 4px;
+    padding-left:20px;
+    background:#fff no-repeat 2px 2px;
+    border: 1px solid #BEBCBC;
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing : content-box;
+    box-sizing : content-box;
+    width:300px;
+	
+}

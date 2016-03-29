@@ -1,0 +1,68 @@
+
+		#purr-container {
+			position:absolute;
+			max-width:350px;
+			margin-left:-150px;
+			z-index:9999;
+			font-size:11pt;
+		}
+		
+		.notice {
+			position: relative;
+			font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;
+			
+		}
+		.notice img.close	{position: absolute; top: 5px; right: 5px;  width: 20px; cursor:pointer; opacity:0.4}
+		.notice img.close:hover	{opacity:0.99; -moz-opacity:0.99; -webkit-opacity:0.99}
+		
+		.notice-body {
+			
+			padding: 12px 30px 5px 12px;
+			border-radius:15px; -moz-border-radius:15px; -webkit-border-radius:15px;
+			box-shadow: 2px 2px 10px 4px #696969; 
+		}
+			.notice-body img      {margin: -20px 0px 0 -5px; width: 40px; position:absolute; top:50%; left:10px; }
+			.notice-body span     {margin: -20px 0px 0 -5px; width: 40px; height:40px; position:absolute; top:50%; left:10px; background:url("../img/warning.png");}
+			.notice-body h3	      {margin: 0px 0px 0px 35px; font-size: 1.1em; text-align:center;}
+			.notice-body p	      {margin: 5px 0px 0px 35px; font-size: 0.8em; line-height: 1.4em; text-align:center;}
+			.notice-body div	  {margin: 0px 0px 0px 35px;}
+			.notice-body strong	  {color:#C62929; padding-left:2px;}
+			
+			.notice-body p.acept {
+			    margin: 10px auto 0 auto;  
+			    width:80px;
+			    text-align:center;
+			    border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;
+			    padding:1px;
+			    color: #004276;
+			    background: #F3D8D8;
+			    border:1px solid #CC0000;
+			    cursor:pointer;
+			    opacity:0.5; -moz-opacity:0.5; -webkit-opacity:0.5;
+			    }
+			.notice-body p.acept:hover
+			{
+			  background: url("../img/backbuttom.png") repeat-x scroll 50% 50% #EEEEEE;
+			  opacity:0.99; -moz-opacity:0.99; -webkit-opacity:0.99;  
+			}
+			
+			.notice-Acpeted {
+			
+			background: url("../img/BackOk.png") repeat scroll 50% 50% #C7120A;
+			color: #003966;
+			border:1px solid #20C583;
+			}
+			.notice-UnAcpeted
+			{
+			 background: url("../img/BackError.png") repeat scroll 50% 50% #C7120A;  
+			 color: #f9f9f9;
+			 border:1px solid #CC0000; 
+			}
+			
+			
+			.notice-Acpeted span{
+			background:url("../img/acepted.png") repeat; 
+			}
+			  .notice-Acpeted p.acept {
+			 border:1px solid #00ff98;
+			  }

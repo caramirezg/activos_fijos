@@ -1,0 +1,349 @@
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em,
+font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, button{
+    border			:0pt none;
+    font-family		:inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0pt;
+    padding: 0pt;
+    vertical-align: baseline;
+}
+body{
+    line-height: auto;
+    font-size: 12px !Important;
+    background: #EEEEEE;
+    font-family: Segoe UI, Arial, sans-serif;
+    margin: 0pt;
+    cursor: default;
+    color: #000;
+}
+strong{
+    font-weight: 700;
+}
+
+blockquote:before, blockquote:after, q:before, q:after{
+    main: "";
+}
+blockquote, q{
+    quotes: "" "";
+}
+html,body{
+    height: 100%;
+    overflow: hidden;
+}
+.clearfix{
+    overflow: hidden;
+}
+
+#top{
+    border-bottom: 1px solid #FFAF0F;
+    height:84px;
+  }
+
+#lateral{
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+#lateral h2{
+    font-size: 13px;
+    font-weight: 700;
+    padding:6px 10px;
+    color:#59b4d4;
+    background:#ffffcc;
+}
+#lateral ul
+{
+	margin-top:20px;
+    padding: 10px 0 0;
+    list-style: none;
+    list-style-position: inside;
+}
+#lateral li{
+    font-size: 15px;
+    font-weight:600;
+    position: relative;
+    line-height: 24px;
+    margin-bottom:5px;
+    /*margin-left: -50px;*/
+    color: #000;
+    border: 1px solid #EEEEEE;
+    cursor: pointer;
+    width: 180px;
+    padding:18px 15px 18px 0px;
+    border-radius: 0px 10px 10px 0;
+	-ms-border-radius: 0px 10px 10px 0;
+	-moz-border-radius:0px 10px 10px 0;
+	-webkit-border-radius:0px 10px 10px 0;
+	-khtml-border-radius:0px 10px 10px 0;
+	/*background:url("../img/linehoritzontal.png" ) -40% 70% no-repeat;*/
+}
+
+#lateral li:hover
+{
+	background: #ffc73d url("../img/lineOpaced.png") 50% 50% repeat-x;
+	border: 1px solid #CCCCCC;
+}
+#lateral li img{
+    float:left;
+    margin-top:-8px;
+    width:48px;
+}
+/*#lateral li em{
+   margin-left:-50px;
+   opacity: 0.01;
+}*/
+#lateral li.active a, #lateral li.active a:hover{
+    background: #c2cff1
+}
+#lateral li a:hover{
+    background-color: #ffffcc;
+}
+#lateral li a span{
+    padding-left: 16px;
+}
+#lateral li a .icon{
+    width: 16px;
+    height: 16px;
+    position:absolute;
+    top: 4px;
+    background: transparent url("../img/rss_bg.gif") no-repeat left center;
+}
+
+#content{
+    height: 100%;
+    margin-left: 200px;
+    background: transparent url(../img/Miteleferico.jpg) no-repeat center center;
+    background-color:White;
+
+   
+}
+#content h2{
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px 0 20px;
+    background: #ffc73d url("../img/line.png") 50% 50% repeat-x;
+
+    border-bottom:1px solid #ffc73d; 
+    border-left:1px solid#ffc73d;  
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    text-shadow: 1px 1px 2px #E7E5E5;
+}
+#content marquee
+{
+    -moz-border-radius:25px;
+    -wwebkit-border-radius:25px;
+    border-radius:25px;
+    padding:0px 5px;
+    
+}
+#content #render{
+    height:100%;
+    overflow: hidden;
+}
+#content table#tip{
+    display: block;
+    padding: 20px;
+}
+#content table#tip td{
+    text-align:right;
+    border: 1px solid redf;
+    padding:5px;
+}
+
+#content table#tip td:nth-child(2)
+{
+	text-align:left;
+	color:#4A6D73;
+	font-size:11pt;
+}
+
+#content #iframe{
+    display: none;
+   }
+
+/*
+    Section:        TOGGLER
+    Description:    Boton que permitirá mostrar / ocultar el panel
+*/
+#toggler{
+    width: 15px;
+    height: 100%;
+    border-left: 1px solid #ffaf0f;
+    background: #FFE4A0 url("../img/arrows.png") no-repeat left 49%;
+    float: left;
+}
+#toggler:hover{
+    background: #FED05F url("../img/arrows.png") no-repeat left 49%;
+    cursor: pointer;
+}
+#toggler.off{
+    background: #FFE4A0 url("../img/arrows.png") no-repeat -15px 49%;
+    margin-left: 0;
+}
+#toggler.off:hover{
+    background: #FED05F url("../img/arrows.png") no-repeat -15px 49%;
+    margin-left: 0;
+}
+
+#footer
+{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    border-top: 1px solid #ffaf0f;
+    background: #ffc73d url("../img/line.png") 50% 50% repeat-x;
+    position: fixed;
+    bottom: 0;
+}
+#footer span{
+    padding-left: 10px;
+    font-size:13px
+}
+
+#footer ul#clock  {margin:0 auto; padding:0px 5px; list-style:none; text-align:center; color:#000000; float:right }
+#footer ul#clock  li {float:left; font-size:11px; text-align:center; font-family:'Arial',Helvetica,sans-serif; }
+
+#Date { float:left;text-align:center;}
+#point { position:relative; -moz-animation:mymove 3s ease infinite; -webkit-animation:mymove 1s ease infinite; padding-left:2px; padding-right:2px; }
+#Line {padding-left:7px; padding-right:7px; }
+
+
+/*
+----------------------------------------------------------------------------------------------------------------
+Section:			 HEADER
+Description:         Menu de La Cabezera
+
+*/
+
+.tabbed_content {
+	width: 100%;
+	font-size: 20px;	
+}
+.tabs {
+	height: 36px;
+	position: relative;
+	/*padding-top:4px;*/
+	/*background: transparent url(../img/fondoMiteleferico.jpg) repeat top left ;*/
+}
+
+.tabs .moving_bg {
+    height:36px;
+	padding: 0px 20px;
+	/*background: #62779A url(../img/line3.png) 0% 50% repeat-x;*/
+	background:#0B173B;
+	position: absolute;
+	width: 100px;
+	z-index: 190;
+	margin-left:-1px;
+	border: 1px solid #000;
+    border-bottom :none;
+	/*border-radius: 0px 10px 0 0; 	-ms-border-radius:10px 10px 0 0; 	-moz-border-radius:10px 10px 0 0; 	-webkit-border-radius:10px 10px 0 0; 	-khtml-border-radius:10px 10px 0 0; */
+
+}
+.tabs .tab_item {
+	display: none;
+	float: left;
+	/*padding: 0px 14px;*/
+	line-height:32px;
+	height:32px;
+	width: 100px;
+	color:White;
+	text-align: center;
+	z-index: 200;
+	position: relative;
+	cursor: pointer;
+	font-size:14px;
+    font-weight: 500;
+}
+.tabs .tab_item:nth-child(2)
+{
+	display:inline;
+}
+
+.tabbed_content .slide_content {
+	overflow: hidden;
+	/*background:#62779A url(../img/line2.png) 0% 50% repeat-x;*/
+	background:#0B173B;
+	padding-top: 2px;
+	padding-bottom:2px;
+	position: relative;
+	width: 100%;
+	border-top:1px solid #000;
+	height:43px;
+	position:absolute;
+	left:0px;
+}
+
+.tabslider {
+	width: 50000px;
+}
+
+.tabslider ul {
+	float: left;
+	width: 2.548%;
+	margin: 0px;
+	padding: 0px;
+	margin-right: 0px;
+	list-style:none;
+}
+.tabslider ul li 
+{
+	float:left;
+	padding:0px 15px;
+	height:43px;
+	line-height:40px;
+	text-align:center;
+	margin-left:5px;
+	position:relative;
+}
+
+
+.tabslider ul li:hover 
+{
+	background: #ffc73d url(../img/lineOpaced.png) 50% 50% repeat-x;
+
+	cursor:pointer;
+}
+.tabslider ul li img 
+{
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin-left:-24px;
+	margin-top:-22px;
+	
+}
+.tabslider ul li h4
+{
+  	margin:auto;
+  	color:White;
+   	font-size:9pt;
+  	font-style:normal;
+  	text-shadow				: #E6E6E6 2px 2px 10px ;
+	-moz-text-shadow		: #E6E6E6 2px 2px 10px ;
+	-webkit-text-shadow		: #E6E6E6 2px 2px 10px ;
+}
+
+#INICIO { border-right: 0px solid #707070;}
+
+#Ingresos{border-right:1px solid #707070;}
+
+#Responder,#GenerarEgreso{border-right:1px solid #707070;}
+
+#verIngreso,#IngresoFecha,#verEgreso,#EgresoFecha,#Existencias,#Iniciales,#Kardex,#proveedores{border-right:1px solid #707070;}
+
+#Pie{ border-right: 1px solid #707070;}
+
+#CreaUsuario,#EditaUsuario,#CreaCargo{border-right: 1px solid #707070;}
+
+#CreaItem,#EditaItem,#CreaLinea,#EditaLinea{border-right: 1px solid #707070;}
+
+#CreaProveedor,#EditaProveedor,#BuscarProveedor{border-right: 1px solid #707070;}
+
+#IngresoInicioGestion{border-right: 1px solid #707070;}

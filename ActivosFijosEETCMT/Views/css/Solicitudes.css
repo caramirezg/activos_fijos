@@ -1,0 +1,279 @@
+
+/*-----------------------------Setenado------------------------------------*/
+*{    
+    font-family		:inherit;
+    font-size		:100%;
+    font-style		:inherit;
+    font-weight		:inherit;
+    margin			:0pt;
+    padding			:0pt;
+    vertical-align	:baseline;
+    list-style		:none;
+}
+/*-----------------------------body------------------------------------*/
+
+body,html
+{
+	height          :100%;
+	background      :#EEEEEE;
+	font            :90%/1.45em "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	overflow        :hidden;
+}
+.contenedor
+{
+	min-height      :100%;
+	height          :auto!important;
+	height          :100%;
+}
+
+.contenido .left, .contenido .right{
+	   
+	    padding: 0px 0px ;
+		position:absolute;
+		height:100%;
+}
+.contenido div.left
+{
+width:45%;
+float:left;	
+}
+.contenido div.right
+{
+border-left:2px solid #C8C6C6;
+width:55%;
+margin-left:45%;
+}
+div#combo
+{
+background: url("../img/lineSearch.png") repeat-x scroll 50% 50% #CCCCCC;
+border: 1px solid #AAAAAA;
+border-top:none;
+padding-left:10px;
+height:30px;
+ 
+}
+div#combo #option, div#combo input
+{
+	border: 1px solid #ABADB3;
+	margin-top:5px;
+}
+div#combo #option
+{
+	width:65%;
+	padding-left:5px;
+	float: left;
+	text-align:left;
+	font-size:10pt;
+	padding-left:3px;
+}
+div#combo #option option
+{
+    padding-left:3px;
+}
+div#combo input
+{
+ width:15%;
+ float:right;
+ padding:1px 30px;
+ padding-right:15px;
+ text-align:right;
+ border: 1px solid #ABADB3;
+ background:url(../img/search.png) 5% -3px no-repeat;
+ background-color:#fff;
+-moz-border-radius:10px; -webkit-border-radius:10px; border-radius:10px;
+}
+div#combo #option:hover, div#combo input:hover
+{
+	border: 1px solid #59b4d4;
+	cursor:pointer;
+}
+.leftcenter, .rightcenter 
+{
+	position:absolute;
+	top:31px;
+	bottom:0px;
+	width:100%;
+	overflow:auto;
+}
+.rightcenter
+{
+    bottom:34px;
+    border-bottom: 1px solid #C8C6C6;
+} 
+.loading
+{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:#E9E9E9 url(../img/loading.gif) 50% 50% no-repeat;
+    display:none;
+    z-index:100;
+} 
+
+table#left{
+		width:98%;
+		margin-left:1%;	
+}
+table#left td
+{
+	margin-bottom:1px;
+	border:1px solid #C8C6C6;     	
+}
+table#left td:hover{
+	border: 1px solid #0072C6;
+}
+
+table#left td h1{
+		padding:1px 0px 1px 4px;
+		color:#000;
+		background:#D8D8D8;
+		
+}
+table#left td:hover h1{	
+		background:#0072C6;
+		color:#fff;
+}
+
+table#left td:hover input[type="button"]{
+    background: #0072C6;
+}
+
+table#left td:hover h2{
+		color:#0072C6;
+}
+table#left td h2,i,a,input{
+	margin-top: 6px;
+	margin-bottom:4px;		
+}
+
+table#left td h2,i
+{
+	float:left;
+	margin-left: 2%;
+}
+table#left td a,input
+{
+	float:right;
+	margin-right: 2%;
+}
+table#left td i#id
+{
+  display:none;   
+}
+table#left td input[type="text"]
+{
+	width:40px;
+	text-align:right;
+	margin-right:8%;
+	border: 1px solid #E3E9EF;
+	border-top: 1px solid #ABADB3;
+	border-right: 1px solid #ABADB3;
+}
+table#left td input[type="button"]
+{
+	font-size:9pt;
+	background:#9F9F9F;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 5px;
+    padding: 1px 10px;
+    text-align: center;
+}
+
+.contenido div.right ul
+{
+  width:100%;
+  height:30px;
+  line-height:35px;
+  background: url("../img/lineSearch.png") repeat-x scroll 50% 50% #CCCCCC;
+  border: 1px solid #AAAAAA;
+  border-top:none;
+}
+.contenido div.right ul li
+{
+	float:left;
+	font-weight:900;
+	color:#0464BB;
+	text-align:center;
+}
+.contenido div.right ul li:nth-child(1){
+    width:67%;
+    padding-left:3px;
+ }
+.contenido div.right ul li:nth-child(2)
+{width:11%;}
+.contenido div.right ul li:nth-child(3)
+{width:11%;}
+.contenido div.right ul li:nth-child(4){
+width:10%;}
+
+table#right{
+  border-collapse:collapse;
+  width:100%;
+  margin-top:1px;
+  z-index:100;
+}
+table#right tr{
+ float:left;
+ width:99.5%;
+ margin-left:0.3%;
+ margin-top:1px;
+ border:1px solid #DDDCDC;
+ color:#0464BB;
+}
+
+table#right tr td
+{
+ float:left;
+ vertical-align: middle;
+ vert-align: middle;
+ height:23px;
+ text-align:center;
+}
+table#right tr td:nth-child(1)
+{width:67%; text-align:left; padding-left:2px;}
+table#right td:nth-child(2)
+{width:11%;}
+table#right td:nth-child(3)
+{width:11%;}
+table#right td:nth-child(4)
+{width:10%;}
+table#right td:nth-child(5)
+{display:none}
+table#right td input[type="button"], .total input[type="button"]
+{
+	background:#868686;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 0px 5px;
+    text-align: center;
+    margin-top:2px;
+}
+table#right td input[type="button"]:hover, .total input[type="button"]:hover
+{
+    background: #0072C6;
+}
+.total
+{
+  height:25px;
+  position:absolute;
+  width:99%;
+  bottom:2px;
+  border: 1px solid #C8C6C6;
+  margin-left:1px;
+  display:table;
+  background: url("../img/lineSearch.png") repeat-x scroll 50% 50% #CCCCCC;
+}
+.total div
+{
+    display:table-cell;
+    vertical-align:middle;
+}
+.highlight
+{
+  font-size:25pt;
+}

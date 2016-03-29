@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsActivosPorGrupos" targetNamespace="http://tempuri.org/dsActivosPorGrupos.xsd" xmlns:mstns="http://tempuri.org/dsActivosPorGrupos.xsd" xmlns="http://tempuri.org/dsActivosPorGrupos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsActivosPorGrupos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsActivosPorGrupos" msprop:Generator_UserDSName="dsActivosPorGrupos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="activos_asignados" msprop:Generator_TableClassName="activos_asignadosDataTable" msprop:Generator_TableVarName="tableactivos_asignados" msprop:Generator_RowChangedName="activos_asignadosRowChanged" msprop:Generator_TablePropName="activos_asignados" msprop:Generator_RowDeletingName="activos_asignadosRowDeleting" msprop:Generator_RowChangingName="activos_asignadosRowChanging" msprop:Generator_RowEvHandlerName="activos_asignadosRowChangeEventHandler" msprop:Generator_RowDeletedName="activos_asignadosRowDeleted" msprop:Generator_RowClassName="activos_asignadosRow" msprop:Generator_UserTableName="activos_asignados" msprop:Generator_RowEvArgName="activos_asignadosRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="fk_persona" msprop:Generator_ColumnVarNameInTable="columnfk_persona" msprop:Generator_ColumnPropNameInRow="fk_persona" msprop:Generator_ColumnPropNameInTable="fk_personaColumn" msprop:Generator_UserColumnName="fk_persona" type="xs:string" minOccurs="0" />
+              <xs:element name="nombres" msprop:Generator_ColumnVarNameInTable="columnnombres" msprop:Generator_ColumnPropNameInRow="nombres" msprop:Generator_ColumnPropNameInTable="nombresColumn" msprop:Generator_UserColumnName="nombres" type="xs:string" minOccurs="0" />
+              <xs:element name="apellidos" msprop:Generator_ColumnVarNameInTable="columnapellidos" msprop:Generator_ColumnPropNameInRow="apellidos" msprop:Generator_ColumnPropNameInTable="apellidosColumn" msprop:Generator_UserColumnName="apellidos" type="xs:string" minOccurs="0" />
+              <xs:element name="gerencia" msprop:Generator_ColumnVarNameInTable="columngerencia" msprop:Generator_ColumnPropNameInRow="gerencia" msprop:Generator_ColumnPropNameInTable="gerenciaColumn" msprop:Generator_UserColumnName="gerencia" type="xs:string" minOccurs="0" />
+              <xs:element name="area" msprop:Generator_ColumnVarNameInTable="columnarea" msprop:Generator_ColumnPropNameInRow="area" msprop:Generator_ColumnPropNameInTable="areaColumn" msprop:Generator_UserColumnName="area" type="xs:string" minOccurs="0" />
+              <xs:element name="fk_activo" msprop:Generator_ColumnVarNameInTable="columnfk_activo" msprop:Generator_ColumnPropNameInRow="fk_activo" msprop:Generator_ColumnPropNameInTable="fk_activoColumn" msprop:Generator_UserColumnName="fk_activo" type="xs:string" minOccurs="0" />
+              <xs:element name="codigo" msprop:Generator_ColumnVarNameInTable="columncodigo" msprop:Generator_ColumnPropNameInRow="codigo" msprop:Generator_ColumnPropNameInTable="codigoColumn" msprop:Generator_UserColumnName="codigo" type="xs:string" minOccurs="0" />
+              <xs:element name="descripcion" msprop:Generator_ColumnVarNameInTable="columndescripcion" msprop:Generator_ColumnPropNameInRow="descripcion" msprop:Generator_ColumnPropNameInTable="descripcionColumn" msprop:Generator_UserColumnName="descripcion" type="xs:string" minOccurs="0" />
+              <xs:element name="fk_auxiliar_contable" msprop:Generator_ColumnVarNameInTable="columnfk_auxiliar_contable" msprop:Generator_ColumnPropNameInRow="fk_auxiliar_contable" msprop:Generator_ColumnPropNameInTable="fk_auxiliar_contableColumn" msprop:Generator_UserColumnName="fk_auxiliar_contable" type="xs:string" minOccurs="0" />
+              <xs:element name="auxiliar_contable" msprop:Generator_ColumnVarNameInTable="columnauxiliar_contable" msprop:Generator_ColumnPropNameInRow="auxiliar_contable" msprop:Generator_ColumnPropNameInTable="auxiliar_contableColumn" msprop:Generator_UserColumnName="auxiliar_contable" type="xs:string" minOccurs="0" />
+              <xs:element name="fk_modelo" msprop:Generator_ColumnVarNameInTable="columnfk_modelo" msprop:Generator_ColumnPropNameInRow="fk_modelo" msprop:Generator_ColumnPropNameInTable="fk_modeloColumn" msprop:Generator_UserColumnName="fk_modelo" type="xs:string" minOccurs="0" />
+              <xs:element name="modelo" msprop:Generator_ColumnVarNameInTable="columnmodelo" msprop:Generator_ColumnPropNameInRow="modelo" msprop:Generator_ColumnPropNameInTable="modeloColumn" msprop:Generator_UserColumnName="modelo" type="xs:string" minOccurs="0" />
+              <xs:element name="fk_marca" msprop:Generator_ColumnVarNameInTable="columnfk_marca" msprop:Generator_ColumnPropNameInRow="fk_marca" msprop:Generator_ColumnPropNameInTable="fk_marcaColumn" msprop:Generator_UserColumnName="fk_marca" type="xs:string" minOccurs="0" />
+              <xs:element name="marca" msprop:Generator_ColumnVarNameInTable="columnmarca" msprop:Generator_ColumnPropNameInRow="marca" msprop:Generator_ColumnPropNameInTable="marcaColumn" msprop:Generator_UserColumnName="marca" type="xs:string" minOccurs="0" />
+              <xs:element name="fk_grupo_contable" msprop:Generator_ColumnVarNameInTable="columnfk_grupo_contable" msprop:Generator_ColumnPropNameInRow="fk_grupo_contable" msprop:Generator_ColumnPropNameInTable="fk_grupo_contableColumn" msprop:Generator_UserColumnName="fk_grupo_contable" type="xs:string" minOccurs="0" />
+              <xs:element name="grupo_contable" msprop:Generator_ColumnVarNameInTable="columngrupo_contable" msprop:Generator_ColumnPropNameInRow="grupo_contable" msprop:Generator_ColumnPropNameInTable="grupo_contableColumn" msprop:Generator_UserColumnName="grupo_contable" type="xs:string" minOccurs="0" />
+              <xs:element name="fk_estacion" msprop:Generator_ColumnVarNameInTable="columnfk_estacion" msprop:Generator_ColumnPropNameInRow="fk_estacion" msprop:Generator_ColumnPropNameInTable="fk_estacionColumn" msprop:Generator_UserColumnName="fk_estacion" type="xs:string" minOccurs="0" />
+              <xs:element name="estacion" msprop:Generator_ColumnVarNameInTable="columnestacion" msprop:Generator_ColumnPropNameInRow="estacion" msprop:Generator_ColumnPropNameInTable="estacionColumn" msprop:Generator_UserColumnName="estacion" type="xs:string" minOccurs="0" />
+              <xs:element name="fk_linea" msprop:Generator_ColumnVarNameInTable="columnfk_linea" msprop:Generator_ColumnPropNameInRow="fk_linea" msprop:Generator_ColumnPropNameInTable="fk_lineaColumn" msprop:Generator_UserColumnName="fk_linea" type="xs:string" minOccurs="0" />
+              <xs:element name="linea" msprop:Generator_ColumnVarNameInTable="columnlinea" msprop:Generator_ColumnPropNameInRow="linea" msprop:Generator_ColumnPropNameInTable="lineaColumn" msprop:Generator_UserColumnName="linea" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

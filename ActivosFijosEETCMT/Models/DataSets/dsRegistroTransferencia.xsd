@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsRegistroTransferencia" targetNamespace="http://tempuri.org/dsRegistroTransferencia.xsd" xmlns:mstns="http://tempuri.org/dsRegistroTransferencia.xsd" xmlns="http://tempuri.org/dsRegistroTransferencia.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsRegistroTransferencia" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsRegistroTransferencia" msprop:Generator_UserDSName="dsRegistroTransferencia">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="transferencias" msprop:Generator_TableClassName="transferenciasDataTable" msprop:Generator_TableVarName="tabletransferencias" msprop:Generator_TablePropName="transferencias" msprop:Generator_RowDeletingName="transferenciasRowDeleting" msprop:Generator_RowChangingName="transferenciasRowChanging" msprop:Generator_RowEvHandlerName="transferenciasRowChangeEventHandler" msprop:Generator_RowDeletedName="transferenciasRowDeleted" msprop:Generator_UserTableName="transferencias" msprop:Generator_RowChangedName="transferenciasRowChanged" msprop:Generator_RowEvArgName="transferenciasRowChangeEvent" msprop:Generator_RowClassName="transferenciasRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:string" minOccurs="0" />
+              <xs:element name="correlativo" msprop:Generator_ColumnVarNameInTable="columncorrelativo" msprop:Generator_ColumnPropNameInRow="correlativo" msprop:Generator_ColumnPropNameInTable="correlativoColumn" msprop:Generator_UserColumnName="correlativo" type="xs:string" minOccurs="0" />
+              <xs:element name="descripcion" msprop:Generator_ColumnVarNameInTable="columndescripcion" msprop:Generator_ColumnPropNameInRow="descripcion" msprop:Generator_ColumnPropNameInTable="descripcionColumn" msprop:Generator_UserColumnName="descripcion" type="xs:string" minOccurs="0" />
+              <xs:element name="f_transferencia" msprop:Generator_ColumnVarNameInTable="columnf_transferencia" msprop:Generator_ColumnPropNameInRow="f_transferencia" msprop:Generator_ColumnPropNameInTable="f_transferenciaColumn" msprop:Generator_UserColumnName="f_transferencia" type="xs:string" minOccurs="0" />
+              <xs:element name="origen" msprop:Generator_ColumnVarNameInTable="columnorigen" msprop:Generator_ColumnPropNameInRow="origen" msprop:Generator_ColumnPropNameInTable="origenColumn" msprop:Generator_UserColumnName="origen" type="xs:string" minOccurs="0" />
+              <xs:element name="doc_respaldo" msprop:Generator_ColumnVarNameInTable="columndoc_respaldo" msprop:Generator_ColumnPropNameInRow="doc_respaldo" msprop:Generator_ColumnPropNameInTable="doc_respaldoColumn" msprop:Generator_UserColumnName="doc_respaldo" type="xs:string" minOccurs="0" />
+              <xs:element name="official" msprop:Generator_ColumnVarNameInTable="columnofficial" msprop:Generator_ColumnPropNameInRow="official" msprop:Generator_ColumnPropNameInTable="officialColumn" msprop:Generator_UserColumnName="official" type="xs:string" minOccurs="0" />
+              <xs:element name="iniciales" msprop:Generator_ColumnVarNameInTable="columniniciales" msprop:Generator_ColumnPropNameInRow="iniciales" msprop:Generator_ColumnPropNameInTable="inicialesColumn" msprop:Generator_UserColumnName="iniciales" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="activos" msprop:Generator_TableClassName="activosDataTable" msprop:Generator_TableVarName="tableactivos" msprop:Generator_TablePropName="activos" msprop:Generator_RowDeletingName="activosRowDeleting" msprop:Generator_RowChangingName="activosRowChanging" msprop:Generator_RowEvHandlerName="activosRowChangeEventHandler" msprop:Generator_RowDeletedName="activosRowDeleted" msprop:Generator_UserTableName="activos" msprop:Generator_RowChangedName="activosRowChanged" msprop:Generator_RowEvArgName="activosRowChangeEvent" msprop:Generator_RowClassName="activosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:string" minOccurs="0" />
+              <xs:element name="codigo" msprop:Generator_ColumnVarNameInTable="columncodigo" msprop:Generator_ColumnPropNameInRow="codigo" msprop:Generator_ColumnPropNameInTable="codigoColumn" msprop:Generator_UserColumnName="codigo" type="xs:string" minOccurs="0" />
+              <xs:element name="descripcion_activo" msprop:Generator_ColumnVarNameInTable="columndescripcion_activo" msprop:Generator_ColumnPropNameInRow="descripcion_activo" msprop:Generator_ColumnPropNameInTable="descripcion_activoColumn" msprop:Generator_UserColumnName="descripcion_activo" type="xs:string" minOccurs="0" />
+              <xs:element name="valor_inicial" msprop:Generator_ColumnVarNameInTable="columnvalor_inicial" msprop:Generator_ColumnPropNameInRow="valor_inicial" msprop:Generator_ColumnPropNameInTable="valor_inicialColumn" msprop:Generator_UserColumnName="valor_inicial" type="xs:decimal" minOccurs="0" />
+              <xs:element name="fk_transferencia" msprop:Generator_ColumnVarNameInTable="columnfk_transferencia" msprop:Generator_ColumnPropNameInRow="fk_transferencia" msprop:Generator_ColumnPropNameInTable="fk_transferenciaColumn" msprop:Generator_UserColumnName="fk_transferencia" type="xs:string" minOccurs="0" />
+              <xs:element name="costo_actual_inicial" msprop:Generator_ColumnVarNameInTable="columncosto_actual_inicial" msprop:Generator_ColumnPropNameInRow="costo_actual_inicial" msprop:Generator_ColumnPropNameInTable="costo_actual_inicialColumn" msprop:Generator_UserColumnName="costo_actual_inicial" type="xs:decimal" minOccurs="0" />
+              <xs:element name="depreciacion_acumulada_inicial" msprop:Generator_ColumnVarNameInTable="columndepreciacion_acumulada_inicial" msprop:Generator_ColumnPropNameInRow="depreciacion_acumulada_inicial" msprop:Generator_ColumnPropNameInTable="depreciacion_acumulada_inicialColumn" msprop:Generator_UserColumnName="depreciacion_acumulada_inicial" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="transferenciasKey1">
+      <xs:selector xpath=".//mstns:transferencias" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+    <xs:unique name="activosKey1">
+      <xs:selector xpath=".//mstns:activos" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="transferencias_activos" msdata:parent="transferencias" msdata:child="activos" msdata:parentkey="id" msdata:childkey="fk_transferencia" msprop:Generator_UserChildTable="activos" msprop:Generator_ChildPropName="GetactivosRows" msprop:Generator_UserRelationName="transferencias_activos" msprop:Generator_ParentPropName="transferenciasRow" msprop:Generator_RelationVarName="relationtransferencias_activos" msprop:Generator_UserParentTable="transferencias" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

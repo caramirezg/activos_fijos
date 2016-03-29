@@ -1,0 +1,20 @@
+﻿.gradeC
+{
+   background:#DDFFDD; 
+   border:1px solid #00FF00; 
+   height:50px;
+   padding-top:7px;
+}
+
+.Aviso
+{
+font-size: 20px;
+color: #515284;
+}
+
+div li
+{
+ position:absolute;
+ top:0px;
+ right:0px;
+}

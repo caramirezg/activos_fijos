@@ -1,0 +1,31 @@
+
+/*-----------------------------Setenado------------------------------------*/
+*{    
+    font-family		:inherit;
+    font-size		:100%;
+    font-style		:inherit;
+    font-weight		:inherit;
+    margin			: 0pt;
+    padding			: 0pt;
+    vertical-align	: baseline;
+    list-style		:none;
+}
+/*-----------------------------body------------------------------------*/
+
+body,html
+{
+	height: 100%;
+	background:#EEEEEE;
+	font: 90% "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+    overflow:hidden;
+	
+}
+.contenedor
+{
+	min-height:100%;
+	height: auto!important;
+	height:100%;
+	width:100%;
+}
+
+/*--------*/

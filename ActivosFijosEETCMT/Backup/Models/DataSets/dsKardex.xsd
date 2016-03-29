@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsKardex" targetNamespace="http://tempuri.org/dsKardex.xsd" xmlns:mstns="http://tempuri.org/dsKardex.xsd" xmlns="http://tempuri.org/dsKardex.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsKardex" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsKardex" msprop:Generator_UserDSName="dsKardex">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="kardex" msprop:Generator_TableClassName="kardexDataTable" msprop:Generator_TableVarName="tablekardex" msprop:Generator_TablePropName="kardex" msprop:Generator_RowDeletingName="kardexRowDeleting" msprop:Generator_RowChangingName="kardexRowChanging" msprop:Generator_RowEvHandlerName="kardexRowChangeEventHandler" msprop:Generator_RowDeletedName="kardexRowDeleted" msprop:Generator_UserTableName="kardex" msprop:Generator_RowChangedName="kardexRowChanged" msprop:Generator_RowEvArgName="kardexRowChangeEvent" msprop:Generator_RowClassName="kardexRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="f_registro" msprop:Generator_ColumnVarNameInTable="columnf_registro" msprop:Generator_ColumnPropNameInRow="f_registro" msprop:Generator_ColumnPropNameInTable="f_registroColumn" msprop:Generator_UserColumnName="f_registro" type="xs:string" minOccurs="0" />
+              <xs:element name="codigo" msprop:Generator_ColumnVarNameInTable="columncodigo" msprop:Generator_ColumnPropNameInRow="codigo" msprop:Generator_ColumnPropNameInTable="codigoColumn" msprop:Generator_UserColumnName="codigo" type="xs:string" minOccurs="0" />
+              <xs:element name="descripcion" msprop:Generator_ColumnVarNameInTable="columndescripcion" msprop:Generator_ColumnPropNameInRow="descripcion" msprop:Generator_ColumnPropNameInTable="descripcionColumn" msprop:Generator_UserColumnName="descripcion" type="xs:string" minOccurs="0" />
+              <xs:element name="serie" msprop:Generator_ColumnVarNameInTable="columnserie" msprop:Generator_ColumnPropNameInRow="serie" msprop:Generator_ColumnPropNameInTable="serieColumn" msprop:Generator_UserColumnName="serie" type="xs:string" minOccurs="0" />
+              <xs:element name="origen" msprop:Generator_ColumnVarNameInTable="columnorigen" msprop:Generator_ColumnPropNameInRow="origen" msprop:Generator_ColumnPropNameInTable="origenColumn" msprop:Generator_UserColumnName="origen" type="xs:string" minOccurs="0" />
+              <xs:element name="destino" msprop:Generator_ColumnVarNameInTable="columndestino" msprop:Generator_ColumnPropNameInRow="destino" msprop:Generator_ColumnPropNameInTable="destinoColumn" msprop:Generator_UserColumnName="destino" type="xs:string" minOccurs="0" />
+              <xs:element name="estado_activo" msprop:Generator_ColumnVarNameInTable="columnestado_activo" msprop:Generator_ColumnPropNameInRow="estado_activo" msprop:Generator_ColumnPropNameInTable="estado_activoColumn" msprop:Generator_UserColumnName="estado_activo" type="xs:string" minOccurs="0" />
+              <xs:element name="accion" msprop:Generator_ColumnVarNameInTable="columnaccion" msprop:Generator_ColumnPropNameInRow="accion" msprop:Generator_ColumnPropNameInTable="accionColumn" msprop:Generator_UserColumnName="accion" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

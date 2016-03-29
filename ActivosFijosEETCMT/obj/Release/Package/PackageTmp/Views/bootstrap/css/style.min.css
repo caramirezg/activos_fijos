@@ -1,0 +1,646 @@
+﻿@media (max-width: 992px) {
+.dashboard .panel-stat .glyph-icon {
+    font-size: 50px;
+}
+.dashboard .panel-stat .glyph-icon.flaticon-educational, .dashboard .panel-stat .glyph-icon.flaticon-incomes {
+    font-size: 60px;
+}
+.dashboard .panel-stat .col-xs-9 {
+    text-align: right;
+}
+}
+.error-page {
+    background: radial-gradient(ellipse at center center , rgba(223, 229, 233, 1) 2%, rgba(223, 229, 233, 1) 2%, rgba(178, 192, 202, 1) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    overflow: hidden;
+    padding: 0;
+}
+.error-main {
+    color: #2b2e33;
+    margin-top: 20%;
+    text-align: center;
+}
+.error-page h1 {
+    font-size: 120px;
+    font-weight: 600;
+    text-align: center;
+}
+.error-page a {
+    color: #2b2e33;
+}
+.error-page a:hover {
+    color: #616873;
+    text-decoration: none;
+}
+.error-page .footer {
+    bottom: 30px;
+    position: absolute;
+    width: 100%;
+}
+.error-page .copyright {
+    font-size: 12px;
+    text-align: center;
+}
+.error-page .btn {
+    padding: 8px 50px;
+}
+body.login {
+    background: radial-gradient(ellipse at center center , rgba(223, 229, 233, 1) 2%, rgba(223, 229, 233, 1) 2%, rgba(178, 192, 202, 1) 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    color: #fff;
+}
+.alert {
+    margin: 20px auto;
+    width: 70%;
+}
+.login h2, .login h3 {
+    font-family: "Open Sans";
+}
+#login-block {
+    padding-bottom: 25px;
+    padding-top: 50px;
+}
+#login-block h3 {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 400;
+    opacity: 0.8;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+}
+.login-box {
+    background: none repeat scroll 0 0 #11203a;
+    border-radius: 3px;
+    margin-top: 80px;
+    max-width: 800px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.login-logo {
+    padding: 15px 0 10px;
+    text-align: center;
+}
+.login-logo img {
+    border: 0 none;
+    display: inline-block;
+}
+.login-form form p {
+    margin: 5px auto 10px;
+    text-align: center;
+    width: 80%;
+}
+.login-box hr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    border-top: 1px solid rgba(0, 0, 0, 0.13);
+    margin: 10px auto 20px;
+    width: 70%;
+}
+.page-icon {
+    background: none repeat scroll 0 0 #12181f;
+    border-radius: 100px;
+    height: 100px;
+    margin: -60px auto 0;
+    text-align: center;
+    width: 100px;
+}
+.page-icon img {
+    height: 48px;
+    margin: 25px 0 0;
+    opacity: 0.6;
+    transition: all 0.5s ease-in-out 0s;
+    vertical-align: middle;
+    width: 48px;
+}
+.rotate-icon {
+    transform: rotate(45deg);
+}
+.login-box .page-icon {
+    animation-delay: 0.8s;
+}
+.login-form input {
+    background: none repeat scroll 0 0 #fefefe;
+    border: 0 none;
+    border-radius: 2px;
+    color: #6c6c6c;
+    display: block;
+    margin: 0 auto 15px;
+    padding: 8px;
+    width: 70%;
+}
+.login-form .input-icon {
+    margin-left: 15%;
+    width: 70%;
+}
+.btn.btn-login {
+    background: none repeat scroll 0 0 #12181f;
+    border: 1px solid rgba(0, 0, 0, 0);
+    color: #fff;
+    display: block;
+    margin: 20px auto;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out 0s;
+    width: 120px;
+}
+.btn.btn-login:hover {
+    border: 1px solid #fff;
+    opacity: 0.8;
+}
+.btn.btn-reset {
+    width: 180px;
+}
+.login-links {
+    text-align: center;
+}
+.login-links a {
+    color: #fff;
+    display: inline-block;
+    opacity: 0.7;
+    padding: 5px;
+    transition: all 0.5s ease 0s;
+}
+.login-links a:hover {
+    opacity: 1;
+    text-decoration: none;
+}
+label.checkbox {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+}
+label.checkbox input {
+    background: none repeat scroll 0 center rgba(0, 0, 0, 0);
+    border: 0 none;
+    margin: 4px 0 0;
+    padding: 0;
+    width: 14px;
+}
+#footer-text, #footer-text a {
+    color: #999;
+    opacity: 1;
+    text-align: center;
+}
+.social-login {
+    margin: 10px 0 5px;
+}
+.social-login .btn {
+    color: #fff;
+    margin: 5px auto;
+    padding: 5px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #333;
+    width: 95%;
+}
+.btn.btn-facebook {
+    background: none repeat scroll 0 0 / 100% auto #385496;
+    font-size: 12px;
+}
+.btn.btn-facebook:hover {
+    background: none repeat scroll 0 0 #4365b4;
+}
+.btn.btn-twitter {
+    background: none repeat scroll 0 0 #4a9eff;
+    font-size: 12px;
+}
+.btn.btn-twitter:hover {
+    background: none repeat scroll 0 0 #73b4ff;
+}
+.fb-login, .twit-login {
+    animation-delay: 0.9s;
+    padding: 5px;
+}
+@media only screen and (max-width: 479px) {
+#login-block {
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+#login-block {
+    margin: 0 auto;
+    width: 420px;
+}
+}
+.lockscreen {
+    text-align: center;
+}
+.lockscreen .page-icon img {
+    border-radius: 50%;
+    height: 100px;
+    margin: 0;
+    opacity: 1;
+    width: 100px;
+}
+.lockscreen i {
+    font-size: 35px;
+    margin-top: 20px;
+    opacity: 0.5;
+}
+.lockscreen h3 {
+    margin-top: 5px;
+}
+.login .form-input {
+    margin-left: 15%;
+    width: 70%;
+}
+body.login.lockscreen {
+    background: none repeat scroll 0 0 #aab5a4;
+    color: #fff;
+}
+.widget-fullwidth {
+    height: 100%;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: -10px;
+}
+.widget-body {
+    padding: 20px;
+}
+.widget h2 {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 7px;
+    padding: 0;
+    width: 60%;
+}
+.panel-weather .panel-body {
+    color: #fff;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+}
+.panel-weather img.weather-bg {
+    position: absolute;
+}
+.panel-weather .weather-body {
+    padding: 0;
+}
+@font-face {
+    font-family: "weather";
+    font-style: normal;
+    font-weight: normal;
+    src: url("icons/weather/artill_clean_icons-webfontd41d.eot?#iefix") format("embedded-opentype"), url("icons/weather/artill_clean_icons-webfont.woff") format("woff"), url("icons/weather/artill_clean_icons-webfont.ttf") format("truetype"), url("icons/weather/weatherfont/artill_clean_icons-webfont.html#artill_clean_weather_iconsRg") format("svg");
+}
+#weather {
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+#weather [class^="icon-"]:before, #weather [class*=" icon-"]:before {
+    color: #fff;
+    font-family: weather;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    margin-left: 0;
+}
+.icon-0:before {
+    content: ":";
+}
+.icon-1:before {
+    content: "p";
+}
+.icon-2:before {
+    content: "S";
+}
+.icon-3:before {
+    content: "Q";
+}
+.icon-4:before {
+    content: "S";
+}
+.icon-5:before {
+    content: "W";
+}
+.icon-6:before {
+    content: "W";
+}
+.icon-7:before {
+    content: "W";
+}
+.icon-8:before {
+    content: "W";
+}
+.icon-9:before {
+    content: "I";
+}
+.icon-10:before {
+    content: "W";
+}
+.icon-11:before {
+    content: "I";
+}
+.icon-12:before {
+    content: "I";
+}
+.icon-13:before {
+    content: "I";
+}
+.icon-14:before {
+    content: "I";
+}
+.icon-15:before {
+    content: "W";
+}
+.icon-16:before {
+    content: "I";
+}
+.icon-17:before {
+    content: "W";
+}
+.icon-18:before {
+    content: "U";
+}
+.icon-19:before {
+    content: "Z";
+}
+.icon-20:before {
+    content: "Z";
+}
+.icon-21:before {
+    content: "Z";
+}
+.icon-22:before {
+    content: "Z";
+}
+.icon-23:before {
+    content: "Z";
+}
+.icon-24:before {
+    content: "E";
+}
+.icon-25:before {
+    content: "E";
+}
+.icon-26:before {
+    content: "3";
+}
+.icon-27:before {
+    content: "a";
+}
+.icon-28:before {
+    content: "A";
+}
+.icon-29:before {
+    content: "a";
+}
+.icon-30:before {
+    content: "A";
+}
+.icon-31:before {
+    content: "6";
+}
+.icon-32:before {
+    content: "1";
+}
+.icon-33:before {
+    content: "6";
+}
+.icon-34:before {
+    content: "1";
+}
+.icon-35:before {
+    content: "W";
+}
+.icon-36:before {
+    content: "1";
+}
+.icon-37:before {
+    content: "S";
+}
+.icon-38:before {
+    content: "S";
+}
+.icon-39:before {
+    content: "S";
+}
+.icon-40:before {
+    content: "M";
+}
+.icon-41:before {
+    content: "W";
+}
+.icon-42:before {
+    content: "I";
+}
+.icon-43:before {
+    content: "W";
+}
+.icon-44:before {
+    content: "a";
+}
+.icon-45:before {
+    content: "S";
+}
+.icon-46:before {
+    content: "U";
+}
+.icon-47:before {
+    content: "S";
+}
+.weather-body h1 {
+    margin-top: 0;
+}
+.weather-currently {
+    color: #fff;
+    font-weight: bold;
+    text-align: right;
+}
+.big-img-weather {
+    padding-left: 30px !important;
+}
+.big-img-weather:before {
+    font-size: 170px !important;
+}
+.weather-left {
+    text-align: center;
+}
+#weather h2 {
+    color: #fff;
+    font-weight: 300;
+    margin: 0 0 8px;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+#weather ul {
+    margin: 0;
+    padding: 0;
+}
+#weather li {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 20px;
+}
+#weather .currently {
+    margin: 0 20px;
+}
+.weather-place {
+    font-size: 24px;
+    text-align: right;
+    width: 50%;
+}
+.weather-place i {
+    float: right;
+    font-size: 50px;
+}
+.weather-footer {
+    background-color: rgba(0, 0, 0, 0.6);
+    bottom: 0;
+    left: 15px;
+    position: absolute;
+    right: 15px;
+}
+.weather-footer-block {
+    border-right: 1px solid #000;
+    font-weight: 500;
+    padding: 5px;
+}
+.weather-footer-block:last-child {
+    border-right: 0 none;
+}
+@media (max-width: 768px) {
+.big-img-weather:before {
+    font-size: 80px !important;
+}
+#weather [class^="icon-"]:before, #weather [class*=" icon-"]:before {
+    font-size: 40px;
+}
+}
+.user-comment {
+    display: block;
+    margin-bottom: 10px;
+    padding: 0 15px;
+}
+.chat {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.chat .header {
+    background: none repeat scroll 0 center rgba(0, 0, 0, 0);
+    border: 0 none;
+    height: auto;
+    min-height: 0;
+    position: relative;
+    width: auto;
+    z-index: 1;
+}
+.chat li {
+    border-bottom: 1px solid #d6d6d6;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+.chat li.left .chat-body {
+    margin-left: 60px;
+}
+.chat li.right .chat-body {
+    margin-right: 60px;
+}
+.chat li .chat-body p {
+    color: #777;
+    margin: 0;
+}
+.chat .panel .slidedown .glyphicon, .chat .glyphicon {
+    margin-right: 5px;
+}
+.chat .panel-body {
+    height: 340px !important;
+    overflow: hidden;
+    padding: 0;
+}
+.chat .panel-body ul {
+    padding: 15px 25px;
+}
+.profil-name-heading {
+    color: #fff;
+    position: absolute;
+    top: 40px;
+    width: 100%;
+}
+.widget-profil-img-center {
+    border: 10px solid #fff;
+    box-shadow: 2px 4px 6px 0 rgba(0, 0, 0, 0.3);
+    margin-top: -40px;
+}
+.font-animation {
+    padding: 10px 0;
+}
+.font-animation a {
+    color: #121212;
+    font-size: 16px;
+}
+.font-animation a i {
+    color: #3598db;
+}
+.font-animation a:hover {
+    text-decoration: none;
+}
+.animation_title {
+    color: #3598db;
+    font-family: "Open Sans",verdana,arial;
+    font-size: 6rem;
+}
+#animationSandbox {
+    display: block;
+    overflow: hidden;
+}
+#tooltip, .graph-info a {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 3px;
+}
+.graph-info {
+    margin-bottom: 10px;
+    width: 100%;
+}
+#tooltip, .graph-info a {
+    color: #646464;
+    font-size: 12px;
+    line-height: 20px;
+}
+.tickLabel {
+    color: #666;
+    font-size: 12px;
+    font-weight: bold;
+}
+#tooltip {
+    border: 1px solid #e1e1e1;
+    display: none;
+    padding: 5px 10px;
+    position: absolute;
+}
+#lines, #bars {
+    cursor: pointer;
+    float: right;
+    height: 32px;
+    margin-left: 10px;
+    margin-right: 0;
+    padding: 0;
+    width: 34px;
+}
+#lines.active, #bars.active {
+    background: none repeat scroll 0 0 #00a2d9;
+}
+#lines span, #bars span {
+    background: url("../img/small/lines.png") no-repeat scroll 9px 12px rgba(0, 0, 0, 0);
+    display: block;
+    height: 32px;
+    width: 34px;
+}
+#bars span {
+    background: url("../img/small/bars.png") no-repeat scroll center 10px rgba(0, 0, 0, 0);
+}
+#lines.active span {
+    background-image: url("../img/small/lines_active.png");
+}
+#bars.active span {
+    background-image: url("../img/small/bars_active.png");
+}
+.yAxis .tickLabel:first-child, .yAxis .tickLabel:last-child {
+    display: none;
+}
+.graph-info:before, .graph-info:after, .graph-container:before, .graph-container:after {
+    clear: both;
+    content: "";
+    display: block;
+}

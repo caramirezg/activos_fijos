@@ -1,0 +1,290 @@
+
+* { padding:0; margin:0; outline: 0;}
+
+html, body, #Form1 
+{
+	height						: 100%;
+	font-family					: Verdana, arial, sans-serif;
+	font-size					: 1em;
+	outline						: 0;
+	z-index						: 999;
+
+}
+img.BackGround
+{
+  height					: 100%;
+  width						: 100%;
+  position					: fixed;
+  top						: -540px;
+  z-index					: 0;
+    left: 5px;
+}
+ .BackDotted
+ {
+ 	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: transparent url(../img/pattern.png) repeat top left;
+	z-index:9;
+ }
+ /*
+.header
+{
+	font-family				: "Maiandra GD",Arial,sans-serif;
+	font-size				: 11px;
+    line-height				: 25px;
+    height					: 25px;
+    background				: #000;
+    z-index					: 999;
+    position				: relative;
+    color					: #fff;
+    text-transform			: uppercase;
+	-moz-box-shadow			: 1px 0px 2px #000;
+	-webkit-box-shadow		: 1px 0px 2px #000;
+	box-shadow				: 1px 0px 2px #000;
+}
+
+.MainContent
+{
+	min-height				: 100%;
+	height					: auto!important;
+	height					: 100%;
+	background				: transparent url(../img/pattern.png) repeat top left;
+}
+.Content
+{
+ padding-bottom				: 25px;	
+ z-index					: 999;
+ position					: relative;
+}
+.Content h1
+{
+	color					: #fff;
+	z-index					: 1000;
+	position				: relative;
+	padding-top				: 10px;
+	text-align				: center;
+	font-family				: 'MV Boli',Arial,sans-serif;
+	font-size				: 45pt;
+	text-shadow				: 0 1px 3px rgba(0, 0, 0, 0.8), 0 0 1px #FFFFFF;
+	-moz-text-shadow		: 0 1px 3px rgba(0, 0, 0, 0.8), 0 0 1px #FFFFFF;
+	-bebkit-text-shadow		: 0 1px 3px rgba(0, 0, 0, 0.8), 0 0 1px #FFFFFF;
+}
+
+.Content .DivLogins
+{
+	min-height				:400px;
+	padding-top				:5px;
+	margin					:auto 0;	
+}
+.Content .DivLogins .Back
+{
+ width:500px;
+ padding-top:15px;
+ padding-bottom:50px;
+ background:url('../img/login.jpg') center center no-repeat;
+ -moz-background-size: 500px;
+ background-size: 500px;
+ color: #fff;
+ margin: 150px auto;
+ border-radius			: 10px 10px 0px 0px;
+-moz-border-radius      : 10px 10px 0px 0px;
+-webkit-border-radius   : 10px 10px 0px 0px;
+
+
+ }
+
+.DivLogins h2
+{
+	background:#000;
+	color:#fff;
+	font-family: "Monotype Corsiva",Arial,sans-serif;
+	text-align:left;
+    padding: 10px 0 15px 15px;
+    letter-spacing:2px;
+    text-shadow				: #fff 0px 0px 10px ;
+	-moz-text-shadow		: #fff 0px 0px 10px ;
+	-webkit-text-shadow		: #fff 0px 0px 10px ;
+	
+	border-radius			: 10px 10px 0 0;
+	-moz-border-radius      : 10px 10px 0 0;
+	-webkit-border-radius   : 10px 10px 0 0;
+}
+.DivLogins a
+{
+    font-size				: 10pt;
+    text-decoration         : none;
+    font-style				: italic;
+}
+
+.DivLogins label{
+	display					: block;
+	padding					: 10px 30px 0px 0px;
+	margin					: 10px 5px 0px 30px;
+	font-family				: "Courier New",Arial,sans-serif;
+	font-size				: 14pt;
+	font-weight             :bold; 
+	
+}
+.DivLogins input[type="text"],
+.DivLogins input[type="password"],
+select
+{
+	border: 1px solid #BEBCBC;
+	background: #fff no-repeat 3px 5px;
+	margin: 5px 0px 0px 35px;
+	padding: 5px;
+	display:block;
+	font-size:16px;
+	width:60%;
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: content-box;
+	  -moz-box-sizing : content-box;
+	       box-sizing : content-box;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+	-webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	   -moz-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	        box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+	-webkit-transition: all 0.3s linear;
+	   -moz-transition: all 0.3s linear;
+	     -o-transition: all 0.3s linear;
+	        transition: all 0.3s linear;
+		 
+}
+select
+{
+	cursor:pointer;
+	font-size:13px;
+}
+input[type="text"]:active, input[type="text"]:focus, input[type="password"]:active, input[type="password"]:focus
+{
+	border: 1px solid rgba(91, 90, 90, 0.7);
+	-webkit-box-shadow: 0px 1px 4px 1px #A8A8A8 inset;
+	   -moz-box-shadow: 0px 1px 4px 1px #A8A8A8 inset;
+	        box-shadow: 0px 1px 4px 1px #A8A8A8 inset;
+} 
+
+.DivLogins span.error{
+    opacity				    :0.01;
+   	color					:red;
+	font-size				:11px;
+	font-style				:italic;
+	display					:block;
+	margin					:4px 40px;
+	
+}
+
+.DivLogins a.forgot:hover
+{
+	color					:#000;
+}*/
+/*.DivLogins div.bottom
+{
+	/*margin-top				:0px;
+	padding					:5px;*/
+	/*border-radius			: 0 0 10px 10px;
+	-moz-border-radius      : 0 0 10px 10px;
+	-webkit-border-radius   : 0 0 10px 10px;*/
+	/*display:block;*/
+	/*clear					:both;*/
+/*}*/
+/*.DivLogins div.bottom a
+{
+	/*display					:block;*/
+	/*clear					:both;
+	padding					:1px 30px;
+	/*text-align				:right;*/
+	/*color					:#ffa800;
+	text-shadow				:1px 1px 1px #000;
+}
+.DivLogins div.bottom a:hover
+{
+   color					:#fff;				
+}
+
+.DivLogins div.bottom input[type="button"]
+{
+	/*background				: #e3e3e3;*/
+	/*background: #0B173B;
+	border					: 1px solid #ccc;
+	color					: white;
+	font-size				: 14px;
+	/*font-weight				: bold;*/
+	/*padding					: 8px 0 9px;
+	text-align				: center;
+	width					: 150px;
+	cursor					: pointer;
+	float					: center;
+	margin					: 10px 20px 10px 10px;
+	
+	-moz-border-radius		: 4px;
+	-webkit-border-radius	: 4px;
+	border-radius			: 4px;
+	
+}
+
+.DivLogins div.bottom input[type="button"]:hover
+{
+	background: #0B2161;
+	border					: 1px solid #ccc;
+	color					: white;
+	font-size				: 14px;
+	padding					: 8px 0 9px;
+	text-align				: center;
+	width					: 150px;
+	cursor					: pointer;
+	float					: center;
+	margin					: 10px 20px 10px 10px;
+	
+	-moz-border-radius		: 4px;
+	-webkit-border-radius	: 4px;
+	border-radius			: 4px;
+	
+}
+
+
+
+.DivLogins div.bottom input[type="submit"]:hover {
+	background: #0B2161;
+	-moz-box-shadow: 0px 0px 2px #fff inset;
+	-webkit-box-shadow: 0px 0px 2px #fff inset;
+	box-shadow: 0px 0px 2px #fff inset;
+	color: #222;
+}
+
+
+:-moz-placeholder{ color:Silver; font-style:italic; }
+::-webkit-input-placeholder { color:Silver; font-style:italic; }
+
+
+.DivLogins .Log1
+{
+	
+	width: 500px;
+	height:330px;
+    min-height:50px;
+    -moz-border-radius      : 10px 10px 10px 10px;
+	-webkit-border-radius   : 10px 10px 10px 10px;
+	border:auto;
+}
+
+.DivLogins .LogDatos
+{
+	width: 500px;
+	height:300px;
+	padding-top:1px;
+    background-color:#0e213f;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+*/
+

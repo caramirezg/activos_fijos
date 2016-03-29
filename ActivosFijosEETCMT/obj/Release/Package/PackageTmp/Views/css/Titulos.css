@@ -1,0 +1,24 @@
+﻿.h4Titulos
+{
+    font-size: 1.5em;
+    color: Black;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+    font-size:x-large; 
+    font-weight:bold;
+    padding-top:20px;
+    padding-left:20px;
+    
+}
+
+.h3Titulos
+{
+    font-size: 1.5em;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+    font-size:larger; 
+    padding-left:20px;
+}

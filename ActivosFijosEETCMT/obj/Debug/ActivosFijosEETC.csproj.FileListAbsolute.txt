@@ -1,0 +1,71 @@
+C:\Users\Teleferico 10\Documents\Visual Studio 2010\Projects\ActivosFijosEETC\ActivosFijosEETC\obj\Debug\ActivosFijosEETC.dll.licenses
+C:\Users\Teleferico 10\Documents\Visual Studio 2010\Projects\ActivosFijosEETC\ActivosFijosEETC\bin\ActivosFijosEETC.dll
+C:\Users\Teleferico 10\Documents\Visual Studio 2010\Projects\ActivosFijosEETC\ActivosFijosEETC\bin\ActivosFijosEETC.pdb
+C:\Users\Teleferico 10\Documents\Visual Studio 2010\Projects\ActivosFijosEETC\ActivosFijosEETC\bin\MessagingToolkit.Barcode.dll
+C:\Users\Teleferico 10\Documents\Visual Studio 2010\Projects\ActivosFijosEETC\ActivosFijosEETC\bin\MessagingToolkit.QRCode.dll
+C:\Users\Teleferico 10\Documents\Visual Studio 2010\Projects\ActivosFijosEETC\ActivosFijosEETC\bin\zxing.dll
+C:\Users\Teleferico 10\Documents\Visual Studio 2010\Projects\ActivosFijosEETC\ActivosFijosEETC\bin\zxing.pdb
+C:\Users\Teleferico 10\Documents\Visual Studio 2010\Projects\ActivosFijosEETC\ActivosFijosEETC\bin\zxing.xml
+C:\Users\Teleferico 10\Documents\Visual Studio 2010\Projects\ActivosFijosEETC\ActivosFijosEETC\obj\Debug\ActivosFijosEETC.dll
+C:\Users\Teleferico 10\Documents\Visual Studio 2010\Projects\ActivosFijosEETC\ActivosFijosEETC\obj\Debug\ActivosFijosEETC.pdb
+C:\Users\Teleferico 10\Documents\Visual Studio 2010\Projects\ActivosFijosEETC\ActivosFijosEETC\obj\Debug\ActivosFijosEETC.csprojResolveAssemblyReference.cache
+D:\ActivosFijosEETC\bin\ActivosFijosEETC.dll
+D:\ActivosFijosEETC\bin\ActivosFijosEETC.pdb
+D:\ActivosFijosEETC\bin\zxing.pdb
+D:\ActivosFijosEETC\bin\zxing.xml
+D:\ActivosFijosEETC\obj\Debug\ActivosFijosEETC.csprojResolveAssemblyReference.cache
+D:\ActivosFijosEETC\obj\Debug\ActivosFijosEETC.dll.licenses
+D:\ActivosFijosEETC\obj\Debug\ActivosFijosEETC.dll
+D:\ActivosFijosEETC\obj\Debug\ActivosFijosEETC.pdb
+D:\ActivosFijosEETC\bin\itextsharp.dll
+C:\inetpub\miteleferico\ActivosWebSide\bin\ActivosFijosEETC.dll
+C:\inetpub\miteleferico\ActivosWebSide\bin\ActivosFijosEETC.pdb
+C:\inetpub\miteleferico\ActivosWebSide\bin\zxing.pdb
+C:\inetpub\miteleferico\ActivosWebSide\bin\zxing.xml
+C:\inetpub\miteleferico\ActivosWebSide\obj\Debug\ResolveAssemblyReference.cache
+C:\inetpub\miteleferico\ActivosWebSide\obj\Debug\ActivosFijosEETC.dll.licenses
+C:\inetpub\miteleferico\ActivosWebSide\obj\Debug\ActivosFijosEETC.dll
+C:\inetpub\miteleferico\ActivosWebSide\obj\Debug\ActivosFijosEETC.pdb
+C:\Users\Carlos\Documents\Visual Studio 2010\Projects\ActivosFijosEETC\bin\ActivosFijosEETC.dll
+C:\Users\Carlos\Documents\Visual Studio 2010\Projects\ActivosFijosEETC\bin\ActivosFijosEETC.pdb
+C:\Users\Carlos\Documents\Visual Studio 2010\Projects\ActivosFijosEETC\bin\zxing.pdb
+C:\Users\Carlos\Documents\Visual Studio 2010\Projects\ActivosFijosEETC\bin\zxing.xml
+C:\Users\Carlos\Documents\Visual Studio 2010\Projects\ActivosFijosEETC\obj\Debug\ActivosFijosEETC.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Documents\Visual Studio 2010\Projects\ActivosFijosEETC\obj\Debug\ActivosFijosEETC.dll.licenses
+C:\Users\Carlos\Documents\Visual Studio 2010\Projects\ActivosFijosEETC\obj\Debug\ActivosFijosEETC.dll
+C:\Users\Carlos\Documents\Visual Studio 2010\Projects\ActivosFijosEETC\obj\Debug\ActivosFijosEETC.pdb
+C:\Users\Carlos\Documents\Visual Studio 2010\Projects\ActivosFijosEETCMT\bin\ActivosFijosEETC.dll
+C:\Users\Carlos\Documents\Visual Studio 2010\Projects\ActivosFijosEETCMT\bin\ActivosFijosEETC.pdb
+C:\Users\Carlos\Documents\Visual Studio 2010\Projects\ActivosFijosEETCMT\bin\zxing.pdb
+C:\Users\Carlos\Documents\Visual Studio 2010\Projects\ActivosFijosEETCMT\bin\zxing.xml
+C:\Users\Carlos\Documents\Visual Studio 2010\Projects\ActivosFijosEETCMT\obj\Debug\ActivosFijosEETC.csprojResolveAssemblyReference.cache
+C:\Users\Carlos\Documents\Visual Studio 2010\Projects\ActivosFijosEETCMT\obj\Debug\ActivosFijosEETC.dll.licenses
+C:\Users\Carlos\Documents\Visual Studio 2010\Projects\ActivosFijosEETCMT\obj\Debug\ActivosFijosEETC.dll
+C:\Users\Carlos\Documents\Visual Studio 2010\Projects\ActivosFijosEETCMT\obj\Debug\ActivosFijosEETC.pdb
+C:\Users\Teleferico 10\Documents\Visual Studio 2010\Projects\ActivosFijosEETCMT\bin\ActivosFijosEETC.dll
+C:\Users\Teleferico 10\Documents\Visual Studio 2010\Projects\ActivosFijosEETCMT\bin\ActivosFijosEETC.pdb
+C:\Users\Teleferico 10\Documents\Visual Studio 2010\Projects\ActivosFijosEETCMT\obj\Debug\ActivosFijosEETC.csprojResolveAssemblyReference.cache
+C:\Users\Teleferico 10\Documents\Visual Studio 2010\Projects\ActivosFijosEETCMT\obj\Debug\ActivosFijosEETC.dll.licenses
+C:\Users\Teleferico 10\Documents\Visual Studio 2010\Projects\ActivosFijosEETCMT\obj\Debug\ActivosFijosEETC.dll
+C:\Users\Teleferico 10\Documents\Visual Studio 2010\Projects\ActivosFijosEETCMT\obj\Debug\ActivosFijosEETC.pdb
+C:\Users\Teleferico 10\Documents\Visual Studio 2013\Projects\ActivosFijosEETCMT\bin\ActivosFijosEETC.dll.config
+C:\Users\Teleferico 10\Documents\Visual Studio 2013\Projects\ActivosFijosEETCMT\bin\ActivosFijosEETC.dll
+C:\Users\Teleferico 10\Documents\Visual Studio 2013\Projects\ActivosFijosEETCMT\bin\ActivosFijosEETC.pdb
+C:\Users\Teleferico 10\Documents\Visual Studio 2013\Projects\ActivosFijosEETCMT\obj\Debug\ActivosFijosEETC.dll.licenses
+C:\Users\Teleferico 10\Documents\Visual Studio 2013\Projects\ActivosFijosEETCMT\obj\Debug\ActivosFijosEETC.dll
+C:\Users\Teleferico 10\Documents\Visual Studio 2013\Projects\ActivosFijosEETCMT\obj\Debug\ActivosFijosEETC.pdb
+C:\Users\Teleferico 10\Documents\Visual Studio 2013\Projects\ActivosFijosEETCMT\obj\Debug\ActivosFijosEETC.csprojResolveAssemblyReference.cache
+E:\DESARROLLO\ACTIVOS FIJOS\ActivosFijosEETCMT\bin\ActivosFijosEETC.dll.config
+E:\DESARROLLO\ACTIVOS FIJOS\ActivosFijosEETCMT\bin\ActivosFijosEETC.dll
+E:\DESARROLLO\ACTIVOS FIJOS\ActivosFijosEETCMT\bin\ActivosFijosEETC.pdb
+E:\DESARROLLO\ACTIVOS FIJOS\ActivosFijosEETCMT\obj\Debug\ActivosFijosEETC.csprojResolveAssemblyReference.cache
+E:\DESARROLLO\ACTIVOS FIJOS\ActivosFijosEETCMT\obj\Debug\ActivosFijosEETC.dll.licenses
+E:\DESARROLLO\ACTIVOS FIJOS\ActivosFijosEETCMT\obj\Debug\ActivosFijosEETC.dll
+E:\DESARROLLO\ACTIVOS FIJOS\ActivosFijosEETCMT\obj\Debug\ActivosFijosEETC.pdb
+D:\DESARROLLO\ACTIVOS FIJOS\ActivosFijosEETCMT\bin\ActivosFijosEETC.dll.config
+D:\DESARROLLO\ACTIVOS FIJOS\ActivosFijosEETCMT\bin\ActivosFijosEETC.dll
+D:\DESARROLLO\ACTIVOS FIJOS\ActivosFijosEETCMT\bin\ActivosFijosEETC.pdb
+D:\DESARROLLO\ACTIVOS FIJOS\ActivosFijosEETCMT\obj\Debug\ActivosFijosEETC.dll.licenses
+D:\DESARROLLO\ACTIVOS FIJOS\ActivosFijosEETCMT\obj\Debug\ActivosFijosEETC.dll
+D:\DESARROLLO\ACTIVOS FIJOS\ActivosFijosEETCMT\obj\Debug\ActivosFijosEETC.pdb
+D:\DESARROLLO\ACTIVOS FIJOS\ActivosFijosEETCMT\obj\Debug\ActivosFijosEETC.csprojResolveAssemblyReference.cache

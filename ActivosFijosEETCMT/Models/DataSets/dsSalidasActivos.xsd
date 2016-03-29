@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsSalidasActivos" targetNamespace="http://tempuri.org/dsSalidasActivos.xsd" xmlns:mstns="http://tempuri.org/dsSalidasActivos.xsd" xmlns="http://tempuri.org/dsSalidasActivos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsSalidasActivos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsSalidasActivos" msprop:Generator_UserDSName="dsSalidasActivos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="salida_maestro" msprop:Generator_TableClassName="salida_maestroDataTable" msprop:Generator_TableVarName="tablesalida_maestro" msprop:Generator_RowChangedName="salida_maestroRowChanged" msprop:Generator_TablePropName="salida_maestro" msprop:Generator_RowDeletingName="salida_maestroRowDeleting" msprop:Generator_RowChangingName="salida_maestroRowChanging" msprop:Generator_RowEvHandlerName="salida_maestroRowChangeEventHandler" msprop:Generator_RowDeletedName="salida_maestroRowDeleted" msprop:Generator_RowClassName="salida_maestroRow" msprop:Generator_UserTableName="salida_maestro" msprop:Generator_RowEvArgName="salida_maestroRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:string" minOccurs="0" />
+              <xs:element name="correlativo" msprop:Generator_ColumnVarNameInTable="columncorrelativo" msprop:Generator_ColumnPropNameInRow="correlativo" msprop:Generator_ColumnPropNameInTable="correlativoColumn" msprop:Generator_UserColumnName="correlativo" type="xs:string" minOccurs="0" />
+              <xs:element name="documento" msprop:Generator_ColumnVarNameInTable="columndocumento" msprop:Generator_ColumnPropNameInRow="documento" msprop:Generator_ColumnPropNameInTable="documentoColumn" msprop:Generator_UserColumnName="documento" type="xs:string" minOccurs="0" />
+              <xs:element name="nombres" msprop:Generator_ColumnVarNameInTable="columnnombres" msprop:Generator_ColumnPropNameInRow="nombres" msprop:Generator_ColumnPropNameInTable="nombresColumn" msprop:Generator_UserColumnName="nombres" type="xs:string" minOccurs="0" />
+              <xs:element name="apellidos" msprop:Generator_ColumnVarNameInTable="columnapellidos" msprop:Generator_ColumnPropNameInRow="apellidos" msprop:Generator_ColumnPropNameInTable="apellidosColumn" msprop:Generator_UserColumnName="apellidos" type="xs:string" minOccurs="0" />
+              <xs:element name="area" msprop:Generator_ColumnVarNameInTable="columnarea" msprop:Generator_ColumnPropNameInRow="area" msprop:Generator_ColumnPropNameInTable="areaColumn" msprop:Generator_UserColumnName="area" type="xs:string" minOccurs="0" />
+              <xs:element name="gerencia" msprop:Generator_ColumnVarNameInTable="columngerencia" msprop:Generator_ColumnPropNameInRow="gerencia" msprop:Generator_ColumnPropNameInTable="gerenciaColumn" msprop:Generator_UserColumnName="gerencia" type="xs:string" minOccurs="0" />
+              <xs:element name="motivo" msprop:Generator_ColumnVarNameInTable="columnmotivo" msprop:Generator_ColumnPropNameInRow="motivo" msprop:Generator_ColumnPropNameInTable="motivoColumn" msprop:Generator_UserColumnName="motivo" type="xs:string" minOccurs="0" />
+              <xs:element name="oficial" msprop:Generator_ColumnVarNameInTable="columnoficial" msprop:Generator_ColumnPropNameInRow="oficial" msprop:Generator_ColumnPropNameInTable="oficialColumn" msprop:Generator_UserColumnName="oficial" type="xs:string" minOccurs="0" />
+              <xs:element name="iniciales" msprop:Generator_ColumnVarNameInTable="columniniciales" msprop:Generator_ColumnPropNameInRow="iniciales" msprop:Generator_ColumnPropNameInTable="inicialesColumn" msprop:Generator_UserColumnName="iniciales" type="xs:string" minOccurs="0" />
+              <xs:element name="f_solicitud" msprop:Generator_ColumnVarNameInTable="columnf_solicitud" msprop:Generator_ColumnPropNameInRow="f_solicitud" msprop:Generator_ColumnPropNameInTable="f_solicitudColumn" msprop:Generator_UserColumnName="f_solicitud" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="f_desde" msprop:Generator_ColumnVarNameInTable="columnf_desde" msprop:Generator_ColumnPropNameInRow="f_desde" msprop:Generator_ColumnPropNameInTable="f_desdeColumn" msprop:Generator_UserColumnName="f_desde" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="f_hasta" msprop:Generator_ColumnVarNameInTable="columnf_hasta" msprop:Generator_ColumnPropNameInRow="f_hasta" msprop:Generator_ColumnPropNameInTable="f_hastaColumn" msprop:Generator_UserColumnName="f_hasta" type="xs:string" minOccurs="0" />
+              <xs:element name="documento_autorizacion" msprop:Generator_ColumnVarNameInTable="columndocumento_autorizacion" msprop:Generator_ColumnPropNameInRow="documento_autorizacion" msprop:Generator_ColumnPropNameInTable="documento_autorizacionColumn" msprop:Generator_UserColumnName="documento_autorizacion" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="salida_detalle" msprop:Generator_TableClassName="salida_detalleDataTable" msprop:Generator_TableVarName="tablesalida_detalle" msprop:Generator_RowChangedName="salida_detalleRowChanged" msprop:Generator_TablePropName="salida_detalle" msprop:Generator_RowDeletingName="salida_detalleRowDeleting" msprop:Generator_RowChangingName="salida_detalleRowChanging" msprop:Generator_RowEvHandlerName="salida_detalleRowChangeEventHandler" msprop:Generator_RowDeletedName="salida_detalleRowDeleted" msprop:Generator_RowClassName="salida_detalleRow" msprop:Generator_UserTableName="salida_detalle" msprop:Generator_RowEvArgName="salida_detalleRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:string" minOccurs="0" />
+              <xs:element name="fk_maestro" msprop:Generator_ColumnVarNameInTable="columnfk_maestro" msprop:Generator_ColumnPropNameInRow="fk_maestro" msprop:Generator_ColumnPropNameInTable="fk_maestroColumn" msprop:Generator_UserColumnName="fk_maestro" type="xs:string" minOccurs="0" />
+              <xs:element name="codigo" msprop:Generator_ColumnVarNameInTable="columncodigo" msprop:Generator_ColumnPropNameInRow="codigo" msprop:Generator_ColumnPropNameInTable="codigoColumn" msprop:Generator_UserColumnName="codigo" type="xs:string" minOccurs="0" />
+              <xs:element name="descripcion" msprop:Generator_ColumnVarNameInTable="columndescripcion" msprop:Generator_ColumnPropNameInRow="descripcion" msprop:Generator_ColumnPropNameInTable="descripcionColumn" msprop:Generator_UserColumnName="descripcion" type="xs:string" minOccurs="0" />
+              <xs:element name="serie" msprop:Generator_ColumnVarNameInTable="columnserie" msprop:Generator_ColumnPropNameInRow="serie" msprop:Generator_ColumnPropNameInTable="serieColumn" msprop:Generator_UserColumnName="serie" type="xs:string" minOccurs="0" />
+              <xs:element name="estado_fisico" msprop:Generator_ColumnVarNameInTable="columnestado_fisico" msprop:Generator_ColumnPropNameInRow="estado_fisico" msprop:Generator_ColumnPropNameInTable="estado_fisicoColumn" msprop:Generator_UserColumnName="estado_fisico" type="xs:string" minOccurs="0" />
+              <xs:element name="observaciones_salida" msprop:Generator_ColumnVarNameInTable="columnobservaciones_salida" msprop:Generator_ColumnPropNameInRow="observaciones_salida" msprop:Generator_ColumnPropNameInTable="observaciones_salidaColumn" msprop:Generator_UserColumnName="observaciones_salida" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="salida_maestroKey1">
+      <xs:selector xpath=".//mstns:salida_maestro" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+    <xs:unique name="salida_detalleKey1">
+      <xs:selector xpath=".//mstns:salida_detalle" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="salida_maestro_salida_detalle" msdata:parent="salida_maestro" msdata:child="salida_detalle" msdata:parentkey="id" msdata:childkey="fk_maestro" msprop:Generator_UserChildTable="salida_detalle" msprop:Generator_ChildPropName="Getsalida_detalleRows" msprop:Generator_UserRelationName="salida_maestro_salida_detalle" msprop:Generator_RelationVarName="relationsalida_maestro_salida_detalle" msprop:Generator_UserParentTable="salida_maestro" msprop:Generator_ParentPropName="salida_maestroRow" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>
